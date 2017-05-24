@@ -9,11 +9,11 @@ namespace P05_CharacterStats
             var characterName = Console.ReadLine();
             var characterHealth = int.Parse(Console.ReadLine());
             var maxHealth = int.Parse(Console.ReadLine());
-            var characterEnaergy = int.Parse(Console.ReadLine());
-            var maxEnaergy = int.Parse(Console.ReadLine());
+            var characterEnergy = int.Parse(Console.ReadLine());
+            var maxEnergy = int.Parse(Console.ReadLine());
 
             string healthBar = buildStatBar(characterHealth, maxHealth);
-            string energyBar = buildStatBar(characterEnaergy, maxEnaergy);
+            string energyBar = buildStatBar(characterEnergy, maxEnergy);
             Console.WriteLine($"Name: {characterName}");
             Console.WriteLine($"Health: {healthBar}");
             Console.WriteLine($"Energy: {energyBar}");
