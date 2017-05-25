@@ -7,7 +7,7 @@ namespace P11_OddNumber
         static void Main(string[] args)
         {
             short number = Math.Abs(short.Parse(Console.ReadLine()));
-            bool isEven = number % 2 == 0; ;
+            bool isEven = number % 2 == 0;
 
             while (isEven)
             {
