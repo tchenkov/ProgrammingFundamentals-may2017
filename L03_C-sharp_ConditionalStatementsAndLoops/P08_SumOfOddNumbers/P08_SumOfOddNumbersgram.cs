@@ -2,7 +2,7 @@
 
 namespace P08_SumOfOddNumbers
 {
-    class ProP08_SumOfOddNumbersgram
+    class P08_SumOfOddNumbersgram
     {
         static void Main(string[] args)
         {
