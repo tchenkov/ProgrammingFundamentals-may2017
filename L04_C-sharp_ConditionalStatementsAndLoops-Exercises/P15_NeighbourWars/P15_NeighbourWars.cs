@@ -12,10 +12,11 @@ namespace P15_NeighbourWars
             int peshosHealth = 100;
             int goshosHealth = 100;
             bool isPeshoAlive = true;
-            
+            bool isGoshoAlive = true;
+
             int roundsCount = 0;
 
-            while (true)
+            while (isPeshoAlive && isGoshoAlive)
             {
                 roundsCount++;
 
@@ -24,7 +25,8 @@ namespace P15_NeighbourWars
                     goshosHealth -= peshosRoundhouseKickDamage;
                     if (goshosHealth <= 0)
                     {
-                        break;
+                        isGoshoAlive = false;
+                        continue;
                     }
                     Console.WriteLine($"Pesho used Roundhouse kick and reduced Gosho to {goshosHealth} health.");
                 }
@@ -34,7 +36,7 @@ namespace P15_NeighbourWars
                     if (peshosHealth <= 0)
                     {
                         isPeshoAlive = false;
-                        break;
+                        continue;
                     }
                     Console.WriteLine($"Gosho used Thunderous fist and reduced Pesho to {peshosHealth} health.");
                 }
