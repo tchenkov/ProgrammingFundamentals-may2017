@@ -97,7 +97,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_DnaSequences", "L05_C-s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07_TrainingHallEquipment", "L05_C-sharp_Basics-MoreExercises\P07_TrainingHallEquipment\P07_TrainingHallEquipment.csproj", "{D38365AB-DF35-4811-8265-B16FA8C82005}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08_SmsTyping", "P08_SmsTyping\P08_SmsTyping.csproj", "{F50F406A-B287-4559-BF4F-A5BE16C4625E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08_SmsTyping", "L05_C-sharp_Basics-MoreExercises\P08_SmsTyping\P08_SmsTyping.csproj", "{F50F406A-B287-4559-BF4F-A5BE16C4625E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
