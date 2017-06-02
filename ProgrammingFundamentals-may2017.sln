@@ -99,7 +99,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07_TrainingHallEquipment",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08_SmsTyping", "L05_C-sharp_Basics-MoreExercises\P08_SmsTyping\P08_SmsTyping.csproj", "{F50F406A-B287-4559-BF4F-A5BE16C4625E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L06_Data Types and Variables - Lab", "L06_Data Types and Variables - Lab", "{4EABF0E9-79E6-4BD2-8F44-071486C8C308}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L06_DataTypesAndVariables-Lab", "L06_DataTypesAndVariables-Lab", "{4EABF0E9-79E6-4BD2-8F44-071486C8C308}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_CenturiesToMinutes", "L06_DataTypesAndVariables-Lab\P01_CenturiesToMinutes\P01_CenturiesToMinutes.csproj", "{AB1324E9-C26F-4EEF-A844-16D39A3B621A}"
 EndProject
@@ -124,6 +124,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_PracticeIntegers", "L07_DataTypesandVariables-Exercises\P01_PracticeIntegers\P01_PracticeIntegers.csproj", "{78C777C8-2E6A-48D4-9700-7544F20D96CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_PracticeFloatingPoints", "L07_DataTypesandVariables-Exercises\P02_PracticeFloatingPoints\P02_PracticeFloatingPoints.csproj", "{FCE0DB69-A2C2-4EE1-B9C4-EFF1142F015D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_PracticeCharsAndStrings", "L07_DataTypesandVariables-Exercises\P03_PracticeCharsAndStrings\P03_PracticeCharsAndStrings.csproj", "{853A4DDA-CB2D-4470-956D-83939E97794B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -347,6 +349,10 @@ Global
 		{FCE0DB69-A2C2-4EE1-B9C4-EFF1142F015D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCE0DB69-A2C2-4EE1-B9C4-EFF1142F015D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCE0DB69-A2C2-4EE1-B9C4-EFF1142F015D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{853A4DDA-CB2D-4470-956D-83939E97794B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853A4DDA-CB2D-4470-956D-83939E97794B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853A4DDA-CB2D-4470-956D-83939E97794B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853A4DDA-CB2D-4470-956D-83939E97794B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -406,5 +412,6 @@ Global
 		{C6C0465E-EC95-4C88-80D5-AB0376A5F590} = {4EABF0E9-79E6-4BD2-8F44-071486C8C308}
 		{78C777C8-2E6A-48D4-9700-7544F20D96CC} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 		{FCE0DB69-A2C2-4EE1-B9C4-EFF1142F015D} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
+		{853A4DDA-CB2D-4470-956D-83939E97794B} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 	EndGlobalSection
 EndGlobal
