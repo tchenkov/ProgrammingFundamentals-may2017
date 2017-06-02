@@ -113,6 +113,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_SpecialNumbers", "L06_D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_TriplesOfLetters", "L06_Data Types and Variables - Lab\P06_TriplesOfLetters\P06_TriplesOfLetters.csproj", "{B552EA25-6FC1-4722-A0BD-398D67EFFFEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07_Greeting", "L06_Data Types and Variables - Lab\P07_Greeting\P07_Greeting.csproj", "{B4EEC29D-2AD1-41F0-867E-F59A5B3D476D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -315,6 +317,10 @@ Global
 		{B552EA25-6FC1-4722-A0BD-398D67EFFFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B552EA25-6FC1-4722-A0BD-398D67EFFFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B552EA25-6FC1-4722-A0BD-398D67EFFFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4EEC29D-2AD1-41F0-867E-F59A5B3D476D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4EEC29D-2AD1-41F0-867E-F59A5B3D476D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4EEC29D-2AD1-41F0-867E-F59A5B3D476D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4EEC29D-2AD1-41F0-867E-F59A5B3D476D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -369,5 +375,6 @@ Global
 		{D07DDC80-0485-408C-A9FD-893AD548DEDC} = {4EABF0E9-79E6-4BD2-8F44-071486C8C308}
 		{F9DCB46A-276D-4426-85DD-C3582203E584} = {4EABF0E9-79E6-4BD2-8F44-071486C8C308}
 		{B552EA25-6FC1-4722-A0BD-398D67EFFFEF} = {4EABF0E9-79E6-4BD2-8F44-071486C8C308}
+		{B4EEC29D-2AD1-41F0-867E-F59A5B3D476D} = {4EABF0E9-79E6-4BD2-8F44-071486C8C308}
 	EndGlobalSection
 EndGlobal
