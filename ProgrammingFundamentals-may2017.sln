@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_Elevator", "L06_Data Ty
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_SpecialNumbers", "L06_Data Types and Variables - Lab\P05_SpecialNumbers\P05_SpecialNumbers.csproj", "{F9DCB46A-276D-4426-85DD-C3582203E584}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_TriplesOfLetters", "L06_Data Types and Variables - Lab\P06_TriplesOfLetters\P06_TriplesOfLetters.csproj", "{B552EA25-6FC1-4722-A0BD-398D67EFFFEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -309,6 +311,10 @@ Global
 		{F9DCB46A-276D-4426-85DD-C3582203E584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9DCB46A-276D-4426-85DD-C3582203E584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9DCB46A-276D-4426-85DD-C3582203E584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B552EA25-6FC1-4722-A0BD-398D67EFFFEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B552EA25-6FC1-4722-A0BD-398D67EFFFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B552EA25-6FC1-4722-A0BD-398D67EFFFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B552EA25-6FC1-4722-A0BD-398D67EFFFEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -362,5 +368,6 @@ Global
 		{F8C3D542-2B41-42A5-95E1-BE1773D9478C} = {4EABF0E9-79E6-4BD2-8F44-071486C8C308}
 		{D07DDC80-0485-408C-A9FD-893AD548DEDC} = {4EABF0E9-79E6-4BD2-8F44-071486C8C308}
 		{F9DCB46A-276D-4426-85DD-C3582203E584} = {4EABF0E9-79E6-4BD2-8F44-071486C8C308}
+		{B552EA25-6FC1-4722-A0BD-398D67EFFFEF} = {4EABF0E9-79E6-4BD2-8F44-071486C8C308}
 	EndGlobalSection
 EndGlobal
