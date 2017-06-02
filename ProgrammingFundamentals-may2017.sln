@@ -109,6 +109,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_ExactSumOfRealNumbers",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_Elevator", "L06_Data Types and Variables - Lab\P04_Elevator\P04_Elevator.csproj", "{D07DDC80-0485-408C-A9FD-893AD548DEDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_SpecialNumbers", "L06_Data Types and Variables - Lab\P05_SpecialNumbers\P05_SpecialNumbers.csproj", "{F9DCB46A-276D-4426-85DD-C3582203E584}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -303,6 +305,10 @@ Global
 		{D07DDC80-0485-408C-A9FD-893AD548DEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D07DDC80-0485-408C-A9FD-893AD548DEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D07DDC80-0485-408C-A9FD-893AD548DEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9DCB46A-276D-4426-85DD-C3582203E584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9DCB46A-276D-4426-85DD-C3582203E584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9DCB46A-276D-4426-85DD-C3582203E584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9DCB46A-276D-4426-85DD-C3582203E584}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -355,5 +361,6 @@ Global
 		{876AC342-9537-403C-B02D-16D2E8CA26EF} = {4EABF0E9-79E6-4BD2-8F44-071486C8C308}
 		{F8C3D542-2B41-42A5-95E1-BE1773D9478C} = {4EABF0E9-79E6-4BD2-8F44-071486C8C308}
 		{D07DDC80-0485-408C-A9FD-893AD548DEDC} = {4EABF0E9-79E6-4BD2-8F44-071486C8C308}
+		{F9DCB46A-276D-4426-85DD-C3582203E584} = {4EABF0E9-79E6-4BD2-8F44-071486C8C308}
 	EndGlobalSection
 EndGlobal
