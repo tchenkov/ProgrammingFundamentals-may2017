@@ -9,7 +9,7 @@ namespace P02_CircleArea
             double radius = double.Parse(Console.ReadLine());
             double pi = Math.PI;
             double area = pi * radius * radius;
-            Console.WriteLine(area);
+            Console.WriteLine($"{area:F12}");
         }
     }
 }
