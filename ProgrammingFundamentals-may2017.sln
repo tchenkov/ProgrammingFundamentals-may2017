@@ -101,23 +101,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08_SmsTyping", "L05_C-shar
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L06_Data Types and Variables - Lab", "L06_Data Types and Variables - Lab", "{4EABF0E9-79E6-4BD2-8F44-071486C8C308}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_CenturiesToMinutes", "L06_Data Types and Variables - Lab\P01_CenturiesToMinutes\P01_CenturiesToMinutes.csproj", "{AB1324E9-C26F-4EEF-A844-16D39A3B621A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_CenturiesToMinutes", "L06_DataTypesAndVariables-Lab\P01_CenturiesToMinutes\P01_CenturiesToMinutes.csproj", "{AB1324E9-C26F-4EEF-A844-16D39A3B621A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_CircleArea", "L06_Data Types and Variables - Lab\P02_CircleArea\P02_CircleArea.csproj", "{876AC342-9537-403C-B02D-16D2E8CA26EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_CircleArea", "L06_DataTypesAndVariables-Lab\P02_CircleArea\P02_CircleArea.csproj", "{876AC342-9537-403C-B02D-16D2E8CA26EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_ExactSumOfRealNumbers", "L06_Data Types and Variables - Lab\P03_ExactSumOfRealNumbers\P03_ExactSumOfRealNumbers.csproj", "{F8C3D542-2B41-42A5-95E1-BE1773D9478C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_ExactSumOfRealNumbers", "L06_DataTypesAndVariables-Lab\P03_ExactSumOfRealNumbers\P03_ExactSumOfRealNumbers.csproj", "{F8C3D542-2B41-42A5-95E1-BE1773D9478C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_Elevator", "L06_Data Types and Variables - Lab\P04_Elevator\P04_Elevator.csproj", "{D07DDC80-0485-408C-A9FD-893AD548DEDC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_Elevator", "L06_DataTypesAndVariables-Lab\P04_Elevator\P04_Elevator.csproj", "{D07DDC80-0485-408C-A9FD-893AD548DEDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_SpecialNumbers", "L06_Data Types and Variables - Lab\P05_SpecialNumbers\P05_SpecialNumbers.csproj", "{F9DCB46A-276D-4426-85DD-C3582203E584}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_SpecialNumbers", "L06_DataTypesAndVariables-Lab\P05_SpecialNumbers\P05_SpecialNumbers.csproj", "{F9DCB46A-276D-4426-85DD-C3582203E584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_TriplesOfLetters", "L06_Data Types and Variables - Lab\P06_TriplesOfLetters\P06_TriplesOfLetters.csproj", "{B552EA25-6FC1-4722-A0BD-398D67EFFFEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_TriplesOfLetters", "L06_DataTypesAndVariables-Lab\P06_TriplesOfLetters\P06_TriplesOfLetters.csproj", "{B552EA25-6FC1-4722-A0BD-398D67EFFFEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07_Greeting", "L06_Data Types and Variables - Lab\P07_Greeting\P07_Greeting.csproj", "{B4EEC29D-2AD1-41F0-867E-F59A5B3D476D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07_Greeting", "L06_DataTypesAndVariables-Lab\P07_Greeting\P07_Greeting.csproj", "{B4EEC29D-2AD1-41F0-867E-F59A5B3D476D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08_RefactorVolumeOfPyramid", "L06_Data Types and Variables - Lab\P08_RefactorVolumeOfPyramid\P08_RefactorVolumeOfPyramid.csproj", "{D9C3E384-D6EC-44A3-BD9D-B3A603054098}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08_RefactorVolumeOfPyramid", "L06_DataTypesAndVariables-Lab\P08_RefactorVolumeOfPyramid\P08_RefactorVolumeOfPyramid.csproj", "{D9C3E384-D6EC-44A3-BD9D-B3A603054098}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09_RefactorSpecialNumbers", "L06_Data Types and Variables - Lab\P09_RefactorSpecialNumbers\P09_RefactorSpecialNumbers.csproj", "{C6C0465E-EC95-4C88-80D5-AB0376A5F590}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09_RefactorSpecialNumbers", "L06_DataTypesAndVariables-Lab\P09_RefactorSpecialNumbers\P09_RefactorSpecialNumbers.csproj", "{C6C0465E-EC95-4C88-80D5-AB0376A5F590}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
