@@ -103,6 +103,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L06_Data Types and Variable
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_CenturiesToMinutes", "L06_Data Types and Variables - Lab\P01_CenturiesToMinutes\P01_CenturiesToMinutes.csproj", "{AB1324E9-C26F-4EEF-A844-16D39A3B621A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_CircleArea", "L06_Data Types and Variables - Lab\P02_CircleArea\P02_CircleArea.csproj", "{876AC342-9537-403C-B02D-16D2E8CA26EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +287,10 @@ Global
 		{AB1324E9-C26F-4EEF-A844-16D39A3B621A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB1324E9-C26F-4EEF-A844-16D39A3B621A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB1324E9-C26F-4EEF-A844-16D39A3B621A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876AC342-9537-403C-B02D-16D2E8CA26EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876AC342-9537-403C-B02D-16D2E8CA26EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876AC342-9537-403C-B02D-16D2E8CA26EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876AC342-9537-403C-B02D-16D2E8CA26EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -334,5 +340,6 @@ Global
 		{D38365AB-DF35-4811-8265-B16FA8C82005} = {623EEB7B-9E69-455F-9965-AC7A348F9829}
 		{F50F406A-B287-4559-BF4F-A5BE16C4625E} = {623EEB7B-9E69-455F-9965-AC7A348F9829}
 		{AB1324E9-C26F-4EEF-A844-16D39A3B621A} = {4EABF0E9-79E6-4BD2-8F44-071486C8C308}
+		{876AC342-9537-403C-B02D-16D2E8CA26EF} = {4EABF0E9-79E6-4BD2-8F44-071486C8C308}
 	EndGlobalSection
 EndGlobal
