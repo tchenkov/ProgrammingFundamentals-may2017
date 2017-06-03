@@ -137,6 +137,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07_ExchangeVariableValues"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08_EmployeeData", "L07_DataTypesandVariables-Exercises\P08_EmployeeData\P08_EmployeeData.csproj", "{E609AA40-F1F0-46C7-A3A3-0027469897B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09_ReversedChars", "L07_DataTypesandVariables-Exercises\P09_ReversedChars\P09_ReversedChars.csproj", "{CC2864A6-9C4E-4ED9-B78B-9A21EB3485C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -383,6 +385,10 @@ Global
 		{E609AA40-F1F0-46C7-A3A3-0027469897B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E609AA40-F1F0-46C7-A3A3-0027469897B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E609AA40-F1F0-46C7-A3A3-0027469897B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC2864A6-9C4E-4ED9-B78B-9A21EB3485C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC2864A6-9C4E-4ED9-B78B-9A21EB3485C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC2864A6-9C4E-4ED9-B78B-9A21EB3485C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC2864A6-9C4E-4ED9-B78B-9A21EB3485C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -448,5 +454,6 @@ Global
 		{9874A8D1-EEBC-4166-A26B-32D93CAD293A} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 		{BF01DE51-0938-48E1-945D-5A0D67A5E2E7} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 		{E609AA40-F1F0-46C7-A3A3-0027469897B5} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
+		{CC2864A6-9C4E-4ED9-B78B-9A21EB3485C0} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 	EndGlobalSection
 EndGlobal
