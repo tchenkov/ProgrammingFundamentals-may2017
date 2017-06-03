@@ -159,6 +159,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P18_DifferentIntegersSize",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P19_TheaThePhotographer", "L07_DataTypesandVariables-Exercises\P19_TheaThePhotographer\P19_TheaThePhotographer.csproj", "{22DACAA2-53B0-463D-B943-2B0E3C84F247}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L08_DataTypesAndVariables-MoreExercises", "L08_DataTypesAndVariables-MoreExercises", "{7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
