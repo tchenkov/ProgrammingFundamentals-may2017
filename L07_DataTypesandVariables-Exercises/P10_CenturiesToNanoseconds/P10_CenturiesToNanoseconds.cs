@@ -9,7 +9,7 @@ namespace P10_CenturiesToNanoseconds
         {
             byte centureies = byte.Parse(Console.ReadLine());
             ushort years = (ushort) (centureies * 100);
-            int days = (int)Math.Round(years * 365.2422);
+            int days = (int)(years * 365.2422);
             int hours = days * 24;
             long minutes = (long)hours * 60;
             long seconds = minutes * 60;
