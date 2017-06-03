@@ -169,6 +169,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_WaterOverflow", "L08_Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_TouristInformation", "L08_DataTypesAndVariables-MoreExercises\P04_TouristInformation\P04_TouristInformation.csproj", "{811EB30F-5015-4F72-BF95-01E77E5B7F6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_WeatherForecast", "L08_DataTypesAndVariables-MoreExercises\P05_WeatherForecast\P05_WeatherForecast.csproj", "{D8B8A132-BF82-43D9-B6FF-1C30BDD20AD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -475,6 +477,10 @@ Global
 		{811EB30F-5015-4F72-BF95-01E77E5B7F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{811EB30F-5015-4F72-BF95-01E77E5B7F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{811EB30F-5015-4F72-BF95-01E77E5B7F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8B8A132-BF82-43D9-B6FF-1C30BDD20AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B8A132-BF82-43D9-B6FF-1C30BDD20AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B8A132-BF82-43D9-B6FF-1C30BDD20AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B8A132-BF82-43D9-B6FF-1C30BDD20AD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -555,5 +561,6 @@ Global
 		{91F806B9-022D-45A7-9BF3-294894A84458} = {7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}
 		{DB58DB31-8307-40FF-AFBC-33249E0044EA} = {7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}
 		{811EB30F-5015-4F72-BF95-01E77E5B7F6E} = {7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}
+		{D8B8A132-BF82-43D9-B6FF-1C30BDD20AD7} = {7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}
 	EndGlobalSection
 EndGlobal
