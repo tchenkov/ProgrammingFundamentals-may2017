@@ -183,6 +183,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10_SumOfChars", "L08_DataT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_StringConcatenation", "L08_DataTypesAndVariables-MoreExercises\P11_StringConcatenation\P11_StringConcatenation.csproj", "{27E595EE-2903-4DB1-AFF2-DFD48260B8C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12_BeerKegs", "L08_DataTypesAndVariables-MoreExercises\P12_BeerKegs\P12_BeerKegs.csproj", "{62988701-FF48-4564-B01C-D66B15C5F95A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -517,6 +519,10 @@ Global
 		{27E595EE-2903-4DB1-AFF2-DFD48260B8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27E595EE-2903-4DB1-AFF2-DFD48260B8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27E595EE-2903-4DB1-AFF2-DFD48260B8C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62988701-FF48-4564-B01C-D66B15C5F95A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62988701-FF48-4564-B01C-D66B15C5F95A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62988701-FF48-4564-B01C-D66B15C5F95A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62988701-FF48-4564-B01C-D66B15C5F95A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -604,5 +610,6 @@ Global
 		{0C9DCF6B-4CCE-493B-9CAC-97C0B7AE671B} = {7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}
 		{FE4C4586-80D9-42B7-940B-0670B2B302F8} = {7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}
 		{27E595EE-2903-4DB1-AFF2-DFD48260B8C7} = {7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}
+		{62988701-FF48-4564-B01C-D66B15C5F95A} = {7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}
 	EndGlobalSection
 EndGlobal
