@@ -167,6 +167,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_NumberChecker", "L08_Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_WaterOverflow", "L08_DataTypesAndVariables-MoreExercises\P03_WaterOverflow\P03_WaterOverflow.csproj", "{DB58DB31-8307-40FF-AFBC-33249E0044EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_TouristInformation", "L08_DataTypesAndVariables-MoreExercises\P04_TouristInformation\P04_TouristInformation.csproj", "{811EB30F-5015-4F72-BF95-01E77E5B7F6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -469,6 +471,10 @@ Global
 		{DB58DB31-8307-40FF-AFBC-33249E0044EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB58DB31-8307-40FF-AFBC-33249E0044EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB58DB31-8307-40FF-AFBC-33249E0044EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{811EB30F-5015-4F72-BF95-01E77E5B7F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{811EB30F-5015-4F72-BF95-01E77E5B7F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{811EB30F-5015-4F72-BF95-01E77E5B7F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{811EB30F-5015-4F72-BF95-01E77E5B7F6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -548,5 +554,6 @@ Global
 		{86C3450A-FA38-4B06-82F3-21B7357BB509} = {7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}
 		{91F806B9-022D-45A7-9BF3-294894A84458} = {7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}
 		{DB58DB31-8307-40FF-AFBC-33249E0044EA} = {7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}
+		{811EB30F-5015-4F72-BF95-01E77E5B7F6E} = {7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}
 	EndGlobalSection
 EndGlobal
