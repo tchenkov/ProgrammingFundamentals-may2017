@@ -129,6 +129,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_PracticeCharsAndStrings
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_VariableInHexFormat", "L07_DataTypesandVariables-Exercises\P04_VariableInHexFormat\P04_VariableInHexFormat.csproj", "{3425B90F-ED5F-4A48-93B8-70C6D16125C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_BooleanVariable", "L07_DataTypesandVariables-Exercises\P05_BooleanVariable\P05_BooleanVariable.csproj", "{B4468F53-533F-4C56-8A44-A452CF875F54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -359,6 +361,10 @@ Global
 		{3425B90F-ED5F-4A48-93B8-70C6D16125C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3425B90F-ED5F-4A48-93B8-70C6D16125C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3425B90F-ED5F-4A48-93B8-70C6D16125C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4468F53-533F-4C56-8A44-A452CF875F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4468F53-533F-4C56-8A44-A452CF875F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4468F53-533F-4C56-8A44-A452CF875F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4468F53-533F-4C56-8A44-A452CF875F54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -420,5 +426,6 @@ Global
 		{FCE0DB69-A2C2-4EE1-B9C4-EFF1142F015D} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 		{853A4DDA-CB2D-4470-956D-83939E97794B} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 		{3425B90F-ED5F-4A48-93B8-70C6D16125C7} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
+		{B4468F53-533F-4C56-8A44-A452CF875F54} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 	EndGlobalSection
 EndGlobal
