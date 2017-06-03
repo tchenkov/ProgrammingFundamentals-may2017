@@ -157,6 +157,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P17_PrintPartOf_ASCII_Table
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P18_DifferentIntegersSize", "L07_DataTypesandVariables-Exercises\P18_DifferentIntegersSize\P18_DifferentIntegersSize.csproj", "{7754D756-2D80-41F8-A982-6D60ECC86BD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P19_TheaThePhotographer", "L07_DataTypesandVariables-Exercises\P19_TheaThePhotographer\P19_TheaThePhotographer.csproj", "{22DACAA2-53B0-463D-B943-2B0E3C84F247}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -443,6 +445,10 @@ Global
 		{7754D756-2D80-41F8-A982-6D60ECC86BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7754D756-2D80-41F8-A982-6D60ECC86BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7754D756-2D80-41F8-A982-6D60ECC86BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22DACAA2-53B0-463D-B943-2B0E3C84F247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22DACAA2-53B0-463D-B943-2B0E3C84F247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22DACAA2-53B0-463D-B943-2B0E3C84F247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22DACAA2-53B0-463D-B943-2B0E3C84F247}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -518,5 +524,6 @@ Global
 		{5DD8AB47-134B-44D3-8D1E-944D539D2415} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 		{1FF416D3-A815-4747-A8A5-7A5498C862AC} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 		{7754D756-2D80-41F8-A982-6D60ECC86BD7} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
+		{22DACAA2-53B0-463D-B943-2B0E3C84F247} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 	EndGlobalSection
 EndGlobal
