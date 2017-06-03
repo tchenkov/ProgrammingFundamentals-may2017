@@ -151,6 +151,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13_VowelOrDigit", "L07_Dat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P14_IntegerToHexAndBinary", "L07_DataTypesandVariables-Exercises\P14_IntegerToHexAndBinary\P14_IntegerToHexAndBinary.csproj", "{A547DEF0-4325-4952-B1D0-31110CF7F392}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P16_ComparingFloats", "L07_DataTypesandVariables-Exercises\P16_ComparingFloats\P16_ComparingFloats.csproj", "{5DD8AB47-134B-44D3-8D1E-944D539D2415}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -425,6 +427,10 @@ Global
 		{A547DEF0-4325-4952-B1D0-31110CF7F392}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A547DEF0-4325-4952-B1D0-31110CF7F392}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A547DEF0-4325-4952-B1D0-31110CF7F392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DD8AB47-134B-44D3-8D1E-944D539D2415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD8AB47-134B-44D3-8D1E-944D539D2415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD8AB47-134B-44D3-8D1E-944D539D2415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD8AB47-134B-44D3-8D1E-944D539D2415}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -497,5 +503,6 @@ Global
 		{D8DD9AD8-2452-4726-AECE-09B04BCF6507} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 		{58F5A46E-98BE-4214-B44D-5A51800674DC} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 		{A547DEF0-4325-4952-B1D0-31110CF7F392} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
+		{5DD8AB47-134B-44D3-8D1E-944D539D2415} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 	EndGlobalSection
 EndGlobal
