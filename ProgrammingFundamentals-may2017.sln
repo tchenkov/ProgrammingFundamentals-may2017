@@ -145,6 +145,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_ConvertSpeedUnits", "L0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12_RectangleProperties", "L07_DataTypesandVariables-Exercises\P12_RectangleProperties\P12_RectangleProperties.csproj", "{D9B4A22D-B3C6-4CC0-B048-2E91D452FBF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13_VowelOrDigit", "P13_VowelOrDigit\P13_VowelOrDigit.csproj", "{58F5A46E-98BE-4214-B44D-5A51800674DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -407,6 +409,10 @@ Global
 		{D9B4A22D-B3C6-4CC0-B048-2E91D452FBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9B4A22D-B3C6-4CC0-B048-2E91D452FBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9B4A22D-B3C6-4CC0-B048-2E91D452FBF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58F5A46E-98BE-4214-B44D-5A51800674DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F5A46E-98BE-4214-B44D-5A51800674DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F5A46E-98BE-4214-B44D-5A51800674DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F5A46E-98BE-4214-B44D-5A51800674DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -476,5 +482,6 @@ Global
 		{2E928043-172D-4446-8DC5-EC13D3734915} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 		{1C27BF6D-2E76-4C82-BDF0-C3F91925E080} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 		{D9B4A22D-B3C6-4CC0-B048-2E91D452FBF2} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
+		{58F5A46E-98BE-4214-B44D-5A51800674DC} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 	EndGlobalSection
 EndGlobal
