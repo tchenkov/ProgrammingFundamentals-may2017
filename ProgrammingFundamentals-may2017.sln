@@ -161,6 +161,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P19_TheaThePhotographer", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L08_DataTypesAndVariables-MoreExercises", "L08_DataTypesAndVariables-MoreExercises", "{7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_TypeBoundaries", "L08_DataTypesAndVariables-MoreExercises\P01_TypeBoundaries\P01_TypeBoundaries.csproj", "{86C3450A-FA38-4B06-82F3-21B7357BB509}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -451,6 +453,10 @@ Global
 		{22DACAA2-53B0-463D-B943-2B0E3C84F247}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22DACAA2-53B0-463D-B943-2B0E3C84F247}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22DACAA2-53B0-463D-B943-2B0E3C84F247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86C3450A-FA38-4B06-82F3-21B7357BB509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C3450A-FA38-4B06-82F3-21B7357BB509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C3450A-FA38-4B06-82F3-21B7357BB509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C3450A-FA38-4B06-82F3-21B7357BB509}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -527,5 +533,6 @@ Global
 		{1FF416D3-A815-4747-A8A5-7A5498C862AC} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 		{7754D756-2D80-41F8-A982-6D60ECC86BD7} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
 		{22DACAA2-53B0-463D-B943-2B0E3C84F247} = {DA89C83F-679B-4E73-B40B-94572787BCD9}
+		{86C3450A-FA38-4B06-82F3-21B7357BB509} = {7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}
 	EndGlobalSection
 EndGlobal
