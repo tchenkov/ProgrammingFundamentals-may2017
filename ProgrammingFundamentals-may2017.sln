@@ -189,6 +189,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13_DecryptingMessage", "L0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P14_BoatSimulator", "L08_DataTypesAndVariables-MoreExercises\P14_BoatSimulator\P14_BoatSimulator.csproj", "{B57A9C33-C006-484A-8CF1-87D6A6BDBA9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P15_BalancedBrackets", "L08_DataTypesAndVariables-MoreExercises\P15_BalancedBrackets\P15_BalancedBrackets.csproj", "{F0038C3E-4529-47A8-BE6F-65F5E32BF19D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -535,6 +537,10 @@ Global
 		{B57A9C33-C006-484A-8CF1-87D6A6BDBA9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B57A9C33-C006-484A-8CF1-87D6A6BDBA9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B57A9C33-C006-484A-8CF1-87D6A6BDBA9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0038C3E-4529-47A8-BE6F-65F5E32BF19D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0038C3E-4529-47A8-BE6F-65F5E32BF19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0038C3E-4529-47A8-BE6F-65F5E32BF19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0038C3E-4529-47A8-BE6F-65F5E32BF19D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -625,5 +631,6 @@ Global
 		{62988701-FF48-4564-B01C-D66B15C5F95A} = {7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}
 		{71686AD5-1DBF-4FBB-A2E2-AB2F566BCF23} = {7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}
 		{B57A9C33-C006-484A-8CF1-87D6A6BDBA9E} = {7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}
+		{F0038C3E-4529-47A8-BE6F-65F5E32BF19D} = {7457C1BE-FBE6-4C3E-BD11-D6CA199331B1}
 	EndGlobalSection
 EndGlobal
