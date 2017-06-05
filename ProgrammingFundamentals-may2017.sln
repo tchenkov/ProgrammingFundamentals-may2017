@@ -203,6 +203,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_SignOfIntegerNumber", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_PrintingTriangle", "L09_MethodsDebuggingAndTroubleshootingCode-Lab\P03_PrintingTriangle\P03_PrintingTriangle.csproj", "{D57F29E5-BAAA-482B-94BA-F3337A1D6523}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_DrawAFilledSquare", "L09_MethodsDebuggingAndTroubleshootingCode-Lab\P04_DrawAFilledSquare\P04_DrawAFilledSquare.csproj", "{5E3341A8-CFA6-42A9-B63F-2C4B947F20D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -569,6 +571,10 @@ Global
 		{D57F29E5-BAAA-482B-94BA-F3337A1D6523}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D57F29E5-BAAA-482B-94BA-F3337A1D6523}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D57F29E5-BAAA-482B-94BA-F3337A1D6523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3341A8-CFA6-42A9-B63F-2C4B947F20D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3341A8-CFA6-42A9-B63F-2C4B947F20D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3341A8-CFA6-42A9-B63F-2C4B947F20D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3341A8-CFA6-42A9-B63F-2C4B947F20D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -664,5 +670,6 @@ Global
 		{E6987E8D-F8E5-42ED-BAEA-7CF1F02995C1} = {63F85701-91D1-462C-854D-03BC43417AEE}
 		{837D9BF5-A58D-4298-A4CE-8803FCC1E109} = {63F85701-91D1-462C-854D-03BC43417AEE}
 		{D57F29E5-BAAA-482B-94BA-F3337A1D6523} = {63F85701-91D1-462C-854D-03BC43417AEE}
+		{5E3341A8-CFA6-42A9-B63F-2C4B947F20D1} = {63F85701-91D1-462C-854D-03BC43417AEE}
 	EndGlobalSection
 EndGlobal
