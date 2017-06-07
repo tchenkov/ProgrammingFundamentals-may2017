@@ -18,26 +18,32 @@ namespace P09_HolidaysBetweenTwoDates
                 dateFormatString,
                 CultureInfo.InvariantCulture
                 );
-            var holidaysCount = 0;
+            var holidaysCount = GetWeekendsCount(startDate, endDate);
+            Console.WriteLine(holidaysCount);
+        }
+
+        static int GetWeekendsCount(DateTime startDate, DateTime endDate)
+        {
             startDate = startDate.AddDays(
-                (int)startDate.DayOfWeek >= 1 ?
-                6 - (int)startDate.DayOfWeek :
-                0
-                );
+                            (int)startDate.DayOfWeek >= 1 ?
+                            6 - (int)startDate.DayOfWeek :
+                            0
+                            );
+            var weekendsCount = 0;
             for (var date = startDate; date <= endDate; date = date.AddDays(1))
             {
                 if (date.DayOfWeek == DayOfWeek.Saturday)
                 {
-                    holidaysCount++;
+                    weekendsCount++;
                 }
                 if (date.DayOfWeek == DayOfWeek.Sunday)
                 {
-                    holidaysCount++;
+                    weekendsCount++;
                     date = date.AddDays(5);
                 }
 
             }
-            Console.WriteLine(holidaysCount);
+            return weekendsCount;
         }
     }
 }
