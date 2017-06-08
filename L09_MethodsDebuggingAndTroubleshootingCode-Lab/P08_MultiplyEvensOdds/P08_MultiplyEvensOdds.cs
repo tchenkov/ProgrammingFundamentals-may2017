@@ -7,9 +7,7 @@ namespace P08_MultiplyEvensOdds
         static void Main(string[] args)
         {
             int number = int.Parse(Console.ReadLine());
-            Console.WriteLine(
-                GetMultipleOfEvensAndOdds(number)
-                );
+            Console.WriteLine(GetMultipleOfEvensAndOdds(number));
         }
 
         static int GetMultipleOfEvensAndOdds(int number)
