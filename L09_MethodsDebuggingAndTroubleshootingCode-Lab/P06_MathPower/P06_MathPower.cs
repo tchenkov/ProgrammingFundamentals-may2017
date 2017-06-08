@@ -8,7 +8,8 @@ namespace P06_MathPower
         {
             double number = double.Parse(Console.ReadLine());
             int power = int.Parse(Console.ReadLine());
-            Console.WriteLine(GetNumberPowerOf(number, power));
+            double poweredNumber = GetNumberPowerOf(number, power);
+            Console.WriteLine(poweredNumber);
         }
 
         static double GetNumberPowerOf(double number, int power)
