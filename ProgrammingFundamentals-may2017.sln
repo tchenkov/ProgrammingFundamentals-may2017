@@ -239,6 +239,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09_LongerLine", "L10_Metho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10_CubeProperties", "L10_MethodsDebuggingAndTroubleshootingCode-Exercises\P10_CubeProperties\P10_CubeProperties.csproj", "{7DF5D32B-AE51-4749-A3C7-174066510CBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_GeometryCalculator", "L10_MethodsDebuggingAndTroubleshootingCode-Exercises\P11_GeometryCalculator\P11_GeometryCalculator.csproj", "{2D2A4E31-6931-4FA7-BC2C-54B81845FD50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -673,6 +675,10 @@ Global
 		{7DF5D32B-AE51-4749-A3C7-174066510CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DF5D32B-AE51-4749-A3C7-174066510CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DF5D32B-AE51-4749-A3C7-174066510CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D2A4E31-6931-4FA7-BC2C-54B81845FD50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2A4E31-6931-4FA7-BC2C-54B81845FD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2A4E31-6931-4FA7-BC2C-54B81845FD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2A4E31-6931-4FA7-BC2C-54B81845FD50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -785,5 +791,6 @@ Global
 		{16D37872-CAA9-43B0-AAF2-40EA3DD49A69} = {0A4FEE69-9CBB-46AA-97A9-156A358B6D5C}
 		{048441F9-096B-4F26-8993-2CF85497558E} = {0A4FEE69-9CBB-46AA-97A9-156A358B6D5C}
 		{7DF5D32B-AE51-4749-A3C7-174066510CBF} = {0A4FEE69-9CBB-46AA-97A9-156A358B6D5C}
+		{2D2A4E31-6931-4FA7-BC2C-54B81845FD50} = {0A4FEE69-9CBB-46AA-97A9-156A358B6D5C}
 	EndGlobalSection
 EndGlobal
