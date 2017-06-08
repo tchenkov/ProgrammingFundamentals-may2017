@@ -10,20 +10,10 @@ namespace P07_PrimesInGivenRange
         {
             var number1 = int.Parse(Console.ReadLine());
             var number2 = int.Parse(Console.ReadLine());
-            List<int> primeNumber = GetPrimesInInterval(number1, number2);
-            PrintPrimeNumbersList(primeNumber);
+            List<int> primeNumbers = GetPrimesInInterval(number1, number2);
+            Console.WriteLine(string.Join(", ", primeNumbers));
         }
-
-        private static void PrintPrimeNumbersList(List<int> primeNumber)
-        {
-            Console.Write(primeNumber[0]);
-            for (var i = 1; i < primeNumber.Count(); i++)
-            {
-                Console.Write($", {primeNumber[i]}");
-            }
-            Console.WriteLine();
-        }
-
+        
         static List<int> GetPrimesInInterval(int startNum, int endNum)
         {
             bool[] isPrime = new bool[endNum + 1];
