@@ -15,7 +15,7 @@ namespace P04_DrawAFilledSquare
             PLinerintSquareTopBottom(squareSize);
             for (int i = 0; i < squareSize - 2; i++)
             {
-            PrintSquareMiddleLine(squareSize);
+                PrintSquareMiddleLine(squareSize);
             }
             PLinerintSquareTopBottom(squareSize);
         }
