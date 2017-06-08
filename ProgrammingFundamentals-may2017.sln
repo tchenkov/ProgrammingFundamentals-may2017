@@ -217,6 +217,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09_HolidaysBetweenTwoDates
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10_PriceChangeAlert", "L09_MethodsDebuggingAndTroubleshootingCode-Lab\P10_PriceChangeAlert\P10_PriceChangeAlert.csproj", "{42DC50BD-B6AA-4B89-8EA7-E07FFD135D88}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L10_MethodsDebuggingAndTroubleshootingCode-Exercises", "L10_MethodsDebuggingAndTroubleshootingCode-Exercises", "{0A4FEE69-9CBB-46AA-97A9-156A358B6D5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

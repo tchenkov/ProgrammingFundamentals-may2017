@@ -10,6 +10,7 @@ namespace P01_BlankReceipt
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             blankReceipt();
         }
 
