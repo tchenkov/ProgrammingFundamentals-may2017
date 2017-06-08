@@ -219,6 +219,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10_PriceChangeAlert", "L09
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L10_MethodsDebuggingAndTroubleshootingCode-Exercises", "L10_MethodsDebuggingAndTroubleshootingCode-Exercises", "{0A4FEE69-9CBB-46AA-97A9-156A358B6D5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_HelloName", "L10_MethodsDebuggingAndTroubleshootingCode-Exercises\P01_HelloName\P01_HelloName.csproj", "{19DC1019-5248-4B74-BA25-CED5E219621F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -613,6 +615,10 @@ Global
 		{42DC50BD-B6AA-4B89-8EA7-E07FFD135D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42DC50BD-B6AA-4B89-8EA7-E07FFD135D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42DC50BD-B6AA-4B89-8EA7-E07FFD135D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19DC1019-5248-4B74-BA25-CED5E219621F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19DC1019-5248-4B74-BA25-CED5E219621F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19DC1019-5248-4B74-BA25-CED5E219621F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19DC1019-5248-4B74-BA25-CED5E219621F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -715,5 +721,6 @@ Global
 		{FD0285A7-3993-4B83-837B-F01FE27D86A7} = {63F85701-91D1-462C-854D-03BC43417AEE}
 		{75DFB0B8-FCD9-43D6-B1BC-3E17A8E802E1} = {63F85701-91D1-462C-854D-03BC43417AEE}
 		{42DC50BD-B6AA-4B89-8EA7-E07FFD135D88} = {63F85701-91D1-462C-854D-03BC43417AEE}
+		{19DC1019-5248-4B74-BA25-CED5E219621F} = {0A4FEE69-9CBB-46AA-97A9-156A358B6D5C}
 	EndGlobalSection
 EndGlobal
