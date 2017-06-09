@@ -249,6 +249,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P14_FactorialTrailingZeroes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P15_Substring", "L10_MethodsDebuggingAndTroubleshootingCode-Exercises\P15_Substring\P15_Substring.csproj", "{4D0D6C8D-FA67-4506-B9F8-B9689DC9AE20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P16_InstructionSet", "L10_MethodsDebuggingAndTroubleshootingCode-Exercises\P16_InstructionSet\P16_InstructionSet.csproj", "{806A7F4F-C9F3-470A-B0F2-37FA76A31BA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -703,6 +705,10 @@ Global
 		{4D0D6C8D-FA67-4506-B9F8-B9689DC9AE20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D0D6C8D-FA67-4506-B9F8-B9689DC9AE20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D0D6C8D-FA67-4506-B9F8-B9689DC9AE20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{806A7F4F-C9F3-470A-B0F2-37FA76A31BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806A7F4F-C9F3-470A-B0F2-37FA76A31BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806A7F4F-C9F3-470A-B0F2-37FA76A31BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806A7F4F-C9F3-470A-B0F2-37FA76A31BA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -820,5 +826,6 @@ Global
 		{30D50F14-F93A-448F-B2FC-05B5361D4F60} = {0A4FEE69-9CBB-46AA-97A9-156A358B6D5C}
 		{DD4331C8-1B65-4939-A225-C54E54DE4D31} = {0A4FEE69-9CBB-46AA-97A9-156A358B6D5C}
 		{4D0D6C8D-FA67-4506-B9F8-B9689DC9AE20} = {0A4FEE69-9CBB-46AA-97A9-156A358B6D5C}
+		{806A7F4F-C9F3-470A-B0F2-37FA76A31BA6} = {0A4FEE69-9CBB-46AA-97A9-156A358B6D5C}
 	EndGlobalSection
 EndGlobal
