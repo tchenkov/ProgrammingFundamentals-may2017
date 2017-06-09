@@ -17,7 +17,7 @@ namespace P11_GeometryCalculator
                     break;
                 case "square":
                     var squareSide = double.Parse(Console.ReadLine());
-                    result = GetRectangleArea(squareSide, squareSide);
+                    result = GetRectangleArea(squareSide);
                     break;
                 case "rectangle":
                     var rectangleSideA = double.Parse(Console.ReadLine());
@@ -32,17 +32,23 @@ namespace P11_GeometryCalculator
             Console.WriteLine($"{result:f2}");
         }
 
-        private static double GetCyrcleArea(double radius)
+
+        static double GetCyrcleArea(double radius)
         {
             return Math.PI * radius * radius;
         }
 
-        private static double GetRectangleArea(double sideA, double sideB)
+        static double GetRectangleArea(double squareSide)
+        {
+            return squareSide * squareSide;
+        }
+
+        static double GetRectangleArea(double sideA, double sideB)
         {
             return sideA * sideB;
         }
 
-        private static double GetTriangleArea(double sideA, double heightA)
+        static double GetTriangleArea(double sideA, double heightA)
         {
             return sideA * heightA / 2;
         }
