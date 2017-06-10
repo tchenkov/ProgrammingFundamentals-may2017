@@ -255,6 +255,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P17_BePositive", "L10_Metho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P18_SequenceOfCommands", "L10_MethodsDebuggingAndTroubleshootingCode-Exercises\P18_SequenceOfCommands\P18_SequenceOfCommands.csproj", "{C19E05C5-BB1F-43B1-ABF0-AE0E9C3FD5E9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L11_Arrays-Lab", "L11_Arrays-Lab", "{B38AEBAA-E388-4C6F-BB43-E74DD9AFBDCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
