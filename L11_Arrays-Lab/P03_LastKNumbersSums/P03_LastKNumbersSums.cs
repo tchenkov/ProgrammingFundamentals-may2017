@@ -8,7 +8,7 @@ namespace P03_LastKNumbersSums
         {
             int arraySize = int.Parse(Console.ReadLine());
             int previousKElements = int.Parse(Console.ReadLine());
-            int[] array = new int[arraySize];
+            long[] array = new long[arraySize];
             array[0] = 1;
             for (int i = 1; i < array.Length; i++)
             {
