@@ -275,6 +275,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08_CondenseArrayToNumber",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09_ExtractMiddleElements", "L11_Arrays-Lab\P09_ExtractMiddleElements\P09_ExtractMiddleElements.csproj", "{C52CB2E3-CB9C-49A0-B2E6-6D6E814DDCBD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L12_Arrays-Exercises", "L12_Arrays-Exercises", "{B396D434-CF0B-47A5-A530-9545E37CF406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_LargestCommonEnd", "L12_Arrays-Exercises\P01_LargestCommonEnd\P01_LargestCommonEnd.csproj", "{41765D47-4FEC-48A2-85B2-46ACD84DCA20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -777,6 +781,10 @@ Global
 		{C52CB2E3-CB9C-49A0-B2E6-6D6E814DDCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C52CB2E3-CB9C-49A0-B2E6-6D6E814DDCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C52CB2E3-CB9C-49A0-B2E6-6D6E814DDCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41765D47-4FEC-48A2-85B2-46ACD84DCA20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41765D47-4FEC-48A2-85B2-46ACD84DCA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41765D47-4FEC-48A2-85B2-46ACD84DCA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41765D47-4FEC-48A2-85B2-46ACD84DCA20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -906,5 +914,6 @@ Global
 		{F6857593-65C6-442C-9EEB-6DB68DE28D5E} = {B38AEBAA-E388-4C6F-BB43-E74DD9AFBDCC}
 		{FD8C9E59-DACF-43D0-BD19-13850FE15506} = {B38AEBAA-E388-4C6F-BB43-E74DD9AFBDCC}
 		{C52CB2E3-CB9C-49A0-B2E6-6D6E814DDCBD} = {B38AEBAA-E388-4C6F-BB43-E74DD9AFBDCC}
+		{41765D47-4FEC-48A2-85B2-46ACD84DCA20} = {B396D434-CF0B-47A5-A530-9545E37CF406}
 	EndGlobalSection
 EndGlobal
