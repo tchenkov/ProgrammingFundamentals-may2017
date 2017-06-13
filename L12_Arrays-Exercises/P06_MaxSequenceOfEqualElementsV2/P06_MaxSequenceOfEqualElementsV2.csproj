@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D9CEF87A-9DC0-4F07-ACD0-E64780CB4D83}</ProjectGuid>
+    <ProjectGuid>{782BA373-2DAC-4614-A3A3-3C2D16E48683}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>P06_MaxSequenceOfEqualElements</RootNamespace>
-    <AssemblyName>P06_MaxSequenceOfEqualElements</AssemblyName>
+    <RootNamespace>P06_MaxSequenceOfEqualElementsV2</RootNamespace>
+    <AssemblyName>P06_MaxSequenceOfEqualElementsV2</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="P06_MaxSequenceOfEqualElements.cs" />
+    <Compile Include="P06_MaxSequenceOfEqualElementsV2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

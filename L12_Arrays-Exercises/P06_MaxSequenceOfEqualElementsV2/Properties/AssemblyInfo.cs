@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("P06_MaxSequenceOfEqualElements")]
+[assembly: AssemblyTitle("P06_MaxSequenceOfEqualElementsV2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("P06_MaxSequenceOfEqualElements")]
+[assembly: AssemblyProduct("P06_MaxSequenceOfEqualElementsV2")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("d9cef87a-9dc0-4f07-acd0-e64780cb4d83")]
+[assembly: Guid("782ba373-2dac-4614-a3a3-3c2d16e48683")]
 
 // Version information for an assembly consists of the following four values:
 //
