@@ -297,6 +297,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_MaxSequenceOfEqualEleme
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09_IndexOfLetters", "L12_Arrays-Exercises\P09_IndexOfLetters\P09_IndexOfLetters.csproj", "{58860C6D-FDC5-44A0-BDA1-8631A8C4DA04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10_PairsByDifference", "L12_Arrays-Exercises\P10_PairsByDifference\P10_PairsByDifference.csproj", "{F4C76A97-333E-4390-8083-8C954C293B05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -839,6 +841,10 @@ Global
 		{58860C6D-FDC5-44A0-BDA1-8631A8C4DA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58860C6D-FDC5-44A0-BDA1-8631A8C4DA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58860C6D-FDC5-44A0-BDA1-8631A8C4DA04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C76A97-333E-4390-8083-8C954C293B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C76A97-333E-4390-8083-8C954C293B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C76A97-333E-4390-8083-8C954C293B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C76A97-333E-4390-8083-8C954C293B05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -978,5 +984,6 @@ Global
 		{6F4845D1-4EFE-4D8A-BE8F-9E095B845749} = {B396D434-CF0B-47A5-A530-9545E37CF406}
 		{782BA373-2DAC-4614-A3A3-3C2D16E48683} = {B396D434-CF0B-47A5-A530-9545E37CF406}
 		{58860C6D-FDC5-44A0-BDA1-8631A8C4DA04} = {B396D434-CF0B-47A5-A530-9545E37CF406}
+		{F4C76A97-333E-4390-8083-8C954C293B05} = {B396D434-CF0B-47A5-A530-9545E37CF406}
 	EndGlobalSection
 EndGlobal
