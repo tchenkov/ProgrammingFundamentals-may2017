@@ -14,8 +14,6 @@ namespace P04_GrabAndGo
             var findLastNum = long.Parse(Console.ReadLine());
             if (numArray.Contains(findLastNum))
             {
-
-
                 int index = 0;
                 for (int i = 0; i < numArray.Length; i++)
                 {
