@@ -313,6 +313,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_GrabAndGo", "L13_Arrays
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_PizzaIngredients", "L13_ArraysAndMethods-MoreExercises\P05_PizzaIngredients\P05_PizzaIngredients.csproj", "{3894D6FE-EE10-4DE7-A0F3-9CD71C1A1598}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_Heists", "L13_ArraysAndMethods-MoreExercises\P06_Heists\P06_Heists.csproj", "{92370422-BD37-4893-BAE5-FAC4762AF479}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -883,6 +885,10 @@ Global
 		{3894D6FE-EE10-4DE7-A0F3-9CD71C1A1598}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3894D6FE-EE10-4DE7-A0F3-9CD71C1A1598}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3894D6FE-EE10-4DE7-A0F3-9CD71C1A1598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92370422-BD37-4893-BAE5-FAC4762AF479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92370422-BD37-4893-BAE5-FAC4762AF479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92370422-BD37-4893-BAE5-FAC4762AF479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92370422-BD37-4893-BAE5-FAC4762AF479}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1029,5 +1035,6 @@ Global
 		{30CE0769-10F8-4193-B401-11EC5E24CD03} = {49F8C38C-0737-490C-95DD-794F0C551221}
 		{ABE4F8AB-B6E3-4C4B-9AE4-CA0B24B9D3BC} = {49F8C38C-0737-490C-95DD-794F0C551221}
 		{3894D6FE-EE10-4DE7-A0F3-9CD71C1A1598} = {49F8C38C-0737-490C-95DD-794F0C551221}
+		{92370422-BD37-4893-BAE5-FAC4762AF479} = {49F8C38C-0737-490C-95DD-794F0C551221}
 	EndGlobalSection
 EndGlobal
