@@ -325,6 +325,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L14_Lists-Lab", "L14_Lists-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_RemoveNegativesAndReverse", "L14_Lists-Lab\P01_RemoveNegativesAndReverse\P01_RemoveNegativesAndReverse.csproj", "{FF7106CB-88AB-4DBC-9134-D79E566AB6AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_AppendLists", "L14_Lists-Lab\P02_AppendLists\P02_AppendLists.csproj", "{23C0777C-0FFE-4D15-A0F5-AED8D9FF7BA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -915,6 +917,10 @@ Global
 		{FF7106CB-88AB-4DBC-9134-D79E566AB6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF7106CB-88AB-4DBC-9134-D79E566AB6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF7106CB-88AB-4DBC-9134-D79E566AB6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C0777C-0FFE-4D15-A0F5-AED8D9FF7BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C0777C-0FFE-4D15-A0F5-AED8D9FF7BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C0777C-0FFE-4D15-A0F5-AED8D9FF7BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C0777C-0FFE-4D15-A0F5-AED8D9FF7BA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1066,5 +1072,6 @@ Global
 		{14388DAF-F8CC-442D-BD7E-53A44467D791} = {49F8C38C-0737-490C-95DD-794F0C551221}
 		{540DC610-EB8B-44DB-A408-1208E382A3CC} = {49F8C38C-0737-490C-95DD-794F0C551221}
 		{FF7106CB-88AB-4DBC-9134-D79E566AB6AE} = {C4B80AF9-3F75-4FA3-855A-929F0F475A2C}
+		{23C0777C-0FFE-4D15-A0F5-AED8D9FF7BA4} = {C4B80AF9-3F75-4FA3-855A-929F0F475A2C}
 	EndGlobalSection
 EndGlobal
