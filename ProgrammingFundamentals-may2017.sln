@@ -321,6 +321,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08_UpgradedMatcher", "L13_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09_JumpAround", "L13_ArraysAndMethods-MoreExercises\P09_JumpAround\P09_JumpAround.csproj", "{540DC610-EB8B-44DB-A408-1208E382A3CC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L14_Lists-Lab", "L14_Lists-Lab", "{C4B80AF9-3F75-4FA3-855A-929F0F475A2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
