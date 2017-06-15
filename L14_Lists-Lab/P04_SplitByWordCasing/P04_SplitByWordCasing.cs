@@ -17,30 +17,14 @@ namespace P04_SplitByWordCasing
             var wordsUpperCase = new List<string>();
             for (int i = 0; i < wordsList.Count; i++)
             {
-                bool upperCase = false;
-                bool lowerCase = false;
-                bool otherChar = false;
-                foreach (var symbol in wordsList[i])
-                {
-                    if ('A' <= symbol && symbol <= 'Z')
-                    {
-                        upperCase = true;
-                    }
-                    else if ('a' <= symbol && symbol <= 'z')
-                    {
-                        lowerCase = true;
-                    }
-                    else if (!('A' <= symbol && symbol <= 'z'))
-                    {
-                        otherChar = true;
-                    }
-                }
-
-                if (lowerCase && !upperCase && !otherChar)
+                bool lowerCase = IsWordLowerCase(wordsList[i]);
+                bool upperCase = IsWordUpperCase(wordsList[i]);
+                               
+                if (lowerCase)
                 {
                     wordsLowerCase.Add(wordsList[i]);
                 }
-                else if (upperCase && !lowerCase && !otherChar)
+                else if (upperCase)
                 {
                     wordsUpperCase.Add(wordsList[i]);
                 }
@@ -49,10 +33,28 @@ namespace P04_SplitByWordCasing
                     wordsMixedCase.Add(wordsList[i]);
                 }
             }
-            
+
             Console.WriteLine($"Lower-case: {string.Join(", ", wordsLowerCase)}");
             Console.WriteLine($"Mixed-case: {string.Join(", ", wordsMixedCase)}");
             Console.WriteLine($"Upper-case: {string.Join(", ", wordsUpperCase)}");
+        }
+
+        static bool IsWordUpperCase(string word)
+            => IsSymbolInInterval('A', 'Z', word);
+
+        static bool IsWordLowerCase(string word)
+            => IsSymbolInInterval('a', 'z', word);
+
+        static bool IsSymbolInInterval(char startChar, char endChar, string word)
+        {
+            foreach (var symbol in word)
+            {
+                if (symbol < startChar || endChar < symbol)
+                {
+                    return false;
+                }                
+            }
+            return true;
         }
     }
 }
