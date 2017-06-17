@@ -22,12 +22,16 @@ namespace P05_ArrayManipulator
                 switch (commandLine[0])
                 {
                     case "add":
+                        var index = int.Parse(commandLine[1]);
+                        var value = int.Parse(commandLine[2]);
+                        numList.Insert(index, value);
+                        break;
                     case "addMany":
                         var addIndex = int.Parse(commandLine[1]);
                         var addValue = commandLine
                             .Skip(2)
                             .Select(int.Parse)
-                            .ToList();
+                            .ToArray();
                         AddNumsToList(numList, addIndex, addValue);
                         break;
                     case "contains":
@@ -52,17 +56,16 @@ namespace P05_ArrayManipulator
             Console.WriteLine("[" + string.Join(", ", numList) + "]");
         }
 
-        static void AddNumsToList(List<int> numList, int index, List<int> addValue)
+        static void AddNumsToList(List<int> numList, int index, int[] addValue)
         {
-            var valuesCount = addValue.Count;
-            addValue.Reverse();
-            foreach (var num in addValue)
+            var valuesCount = addValue.Length;
+            for (int i = valuesCount - 1; i >= 0; i--)
             {
-                numList.Insert(index, num);
+                numList.Insert(index, addValue[i]);
             }
         }
 
-        static void ListShiftLeft<T>(List<T> numList, int shiftCount = 1)
+        static void ListShiftLeft(List<int> numList, int shiftCount = 1)
         {
             for (int s = 0; s < shiftCount; s++)
             {
@@ -77,12 +80,14 @@ namespace P05_ArrayManipulator
 
         static void SumPairs(List<int> numList)
         {
+            var tempList = new List<int>();
             var listLength = numList.Count;
-            for (int i = 0; i < numList.Count - 1; i++)
+            for (int i = 0; i < numList.Count - 1; i += 2)
             {
-                numList[i] += numList[i + 1];
-                numList.RemoveAt(i + 1);
+                tempList.Add(numList[i] + numList[i + 1]);                
             }
+            numList.Clear();
+            numList = tempList;
         }
     }
 }
