@@ -353,6 +353,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_SumReversedNumbers", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07_BombNumbers", "L15_Lists-Exercises\P07_BombNumbers\P07_BombNumbers.csproj", "{BB1ABABA-B8C7-44D0-B162-5AA52BBA1D5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_LongestIncreasingSubsequenceV2", "L15_Lists-Exercises\P04_LongestIncreasingSubsequenceV2\P04_LongestIncreasingSubsequenceV2.csproj", "{7113D1EF-5223-45CA-AE1C-855B6638C0CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -995,6 +997,10 @@ Global
 		{BB1ABABA-B8C7-44D0-B162-5AA52BBA1D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB1ABABA-B8C7-44D0-B162-5AA52BBA1D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB1ABABA-B8C7-44D0-B162-5AA52BBA1D5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7113D1EF-5223-45CA-AE1C-855B6638C0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7113D1EF-5223-45CA-AE1C-855B6638C0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7113D1EF-5223-45CA-AE1C-855B6638C0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7113D1EF-5223-45CA-AE1C-855B6638C0CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1159,5 +1165,6 @@ Global
 		{1A661E49-8BF6-4C6C-B75B-56C574386238} = {269C8402-1CAB-470B-8FB6-32B9965B5B56}
 		{DE1E327D-D8FF-4DBD-BFCE-B907CDA0561A} = {269C8402-1CAB-470B-8FB6-32B9965B5B56}
 		{BB1ABABA-B8C7-44D0-B162-5AA52BBA1D5F} = {269C8402-1CAB-470B-8FB6-32B9965B5B56}
+		{7113D1EF-5223-45CA-AE1C-855B6638C0CB} = {269C8402-1CAB-470B-8FB6-32B9965B5B56}
 	EndGlobalSection
 EndGlobal
