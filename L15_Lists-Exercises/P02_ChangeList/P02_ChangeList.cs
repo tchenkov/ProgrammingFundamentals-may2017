@@ -17,14 +17,11 @@ namespace P02_ChangeList
                 var commandName = command
                     .Split(' ')
                     .ToList();
-                int elementValue = 0;
-                int position = 0;
-                if (commandName.Count > 2)
-                {
-                    position = int.Parse(commandName[2]);
-                }
-                elementValue = int.Parse(commandName[1]);
-
+                var elementValue = int.Parse(commandName[1]);
+                var position = commandName.Count > 2 ?
+                    int.Parse(commandName[2]) :
+                    0;
+                
                 switch (commandName[0])
                 {
                     case "Delete":
