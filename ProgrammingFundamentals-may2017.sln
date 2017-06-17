@@ -337,6 +337,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_SquareNumbers", "L14_Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07_CountNumbers", "L14_Lists-Lab\P07_CountNumbers\P07_CountNumbers.csproj", "{2EB3C1EA-7599-47D2-991A-EBD4B4E2F3F3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L15_Lists-Exercises", "L15_Lists-Exercises", "{269C8402-1CAB-470B-8FB6-32B9965B5B56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_MaxSequenceOfEqualElements", "L15_Lists-Exercises\P01_MaxSequenceOfEqualElements\P01_MaxSequenceOfEqualElements.csproj", "{2714DE47-7DB3-4239-B3E9-9209E7D30F97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -951,6 +955,10 @@ Global
 		{2EB3C1EA-7599-47D2-991A-EBD4B4E2F3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EB3C1EA-7599-47D2-991A-EBD4B4E2F3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EB3C1EA-7599-47D2-991A-EBD4B4E2F3F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2714DE47-7DB3-4239-B3E9-9209E7D30F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2714DE47-7DB3-4239-B3E9-9209E7D30F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2714DE47-7DB3-4239-B3E9-9209E7D30F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2714DE47-7DB3-4239-B3E9-9209E7D30F97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1108,5 +1116,6 @@ Global
 		{6A281317-AA1F-4271-A123-123449B8FA62} = {C4B80AF9-3F75-4FA3-855A-929F0F475A2C}
 		{C8DA0A45-2145-42D6-88C0-4FBB4E7B12B9} = {C4B80AF9-3F75-4FA3-855A-929F0F475A2C}
 		{2EB3C1EA-7599-47D2-991A-EBD4B4E2F3F3} = {C4B80AF9-3F75-4FA3-855A-929F0F475A2C}
+		{2714DE47-7DB3-4239-B3E9-9209E7D30F97} = {269C8402-1CAB-470B-8FB6-32B9965B5B56}
 	EndGlobalSection
 EndGlobal
