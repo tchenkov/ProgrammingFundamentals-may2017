@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace P01_MaxSequenceOfEqualElements
@@ -11,34 +12,27 @@ namespace P01_MaxSequenceOfEqualElements
                 .Split(' ')
                 .Select(int.Parse)
                 .ToList();
-            var numListLenth = numList.Count;
-            var currentIndex = 0;
-            var currentCount = 1;
-            var maxIndex = 0;
-            var maxCount = 1;
-            for (int i = 1; i < numListLenth; i++)
+            var numListLength = numList.Count;
+            var tempList = new List<int> { numList[0] };
+            var maxList = new List<int> { numList[0] };
+            
+            for (int i = 1; i < numListLength; i++)
             {
                 if (numList[i] == numList[i - 1])
                 {
-                    currentCount++;
+                    tempList.Add(numList[i]);
+                    maxList = tempList.Count > maxList.Count ?
+                        new List<int>(tempList) :
+                        maxList;
                 }
                 else
                 {
-                    currentCount = 1;
-                    currentIndex = i;
-                }
-
-                if (currentCount > maxCount)
-                {
-                    maxCount = currentCount;
-                    maxIndex = i - maxCount + 1;
+                    tempList.Clear();
+                    tempList.Add(numList[i]);
                 }
             }
-            numList = numList
-                .Skip(maxIndex)
-                .Take(maxCount)
-                .ToList();
-            Console.WriteLine(string.Join(" ", numList));
+
+            Console.WriteLine(string.Join(" ", maxList));
         }
     }
 }
