@@ -27,10 +27,7 @@ namespace P04_LongestIncreasingSubsequence
 
                 for (int j = 0; j < i; j++)
                 {
-                    if (j < i)
-                    {
-
-                    }
+                    
                 }
             }
         }
