@@ -361,6 +361,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_CountRealNumbers", "L16
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_OddOccurrences", "L16_DictionariesLambdaAndLinq-Lab\P02_OddOccurrences\P02_OddOccurrences.csproj", "{4C931969-B4E5-41E8-81B9-D81C8967CF8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_MinMaxSumAverage", "L16_DictionariesLambdaAndLinq-Lab\P03_MinMaxSumAverage\P03_MinMaxSumAverage.csproj", "{1CA66097-4399-412D-83FD-6B655A5CF496}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1015,6 +1017,10 @@ Global
 		{4C931969-B4E5-41E8-81B9-D81C8967CF8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C931969-B4E5-41E8-81B9-D81C8967CF8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C931969-B4E5-41E8-81B9-D81C8967CF8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CA66097-4399-412D-83FD-6B655A5CF496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CA66097-4399-412D-83FD-6B655A5CF496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CA66097-4399-412D-83FD-6B655A5CF496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CA66097-4399-412D-83FD-6B655A5CF496}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1182,5 +1188,6 @@ Global
 		{7113D1EF-5223-45CA-AE1C-855B6638C0CB} = {269C8402-1CAB-470B-8FB6-32B9965B5B56}
 		{1812B7BC-5B75-495C-A761-3421AC5ABE56} = {FD68E35A-AA4B-4A35-883D-E2A53BF00544}
 		{4C931969-B4E5-41E8-81B9-D81C8967CF8C} = {FD68E35A-AA4B-4A35-883D-E2A53BF00544}
+		{1CA66097-4399-412D-83FD-6B655A5CF496} = {FD68E35A-AA4B-4A35-883D-E2A53BF00544}
 	EndGlobalSection
 EndGlobal
