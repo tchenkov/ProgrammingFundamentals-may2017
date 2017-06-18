@@ -369,6 +369,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_ShortWordsSorted", "L16
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_FoldAndSum", "L16_DictionariesLambdaAndLinq-Lab\P06_FoldAndSum\P06_FoldAndSum.csproj", "{BC9DB57A-EDEE-4826-A77C-F8F76A066A2E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L17_DictionariesLambdaAndLinq-Exercises", "L17_DictionariesLambdaAndLinq-Exercises", "{59680966-F96E-4BCE-B878-D88AD9C5695E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_Phonebook", "L17_DictionariesLambdaAndLinq-Exercises\P01_Phonebook\P01_Phonebook.csproj", "{87D570EE-954D-4DBE-85C0-9B0B75A2A081}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1039,6 +1043,10 @@ Global
 		{BC9DB57A-EDEE-4826-A77C-F8F76A066A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC9DB57A-EDEE-4826-A77C-F8F76A066A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC9DB57A-EDEE-4826-A77C-F8F76A066A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87D570EE-954D-4DBE-85C0-9B0B75A2A081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D570EE-954D-4DBE-85C0-9B0B75A2A081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D570EE-954D-4DBE-85C0-9B0B75A2A081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D570EE-954D-4DBE-85C0-9B0B75A2A081}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1210,5 +1218,6 @@ Global
 		{7AC96FF6-CBEC-4A9F-9DA4-9DF1ED6E90BB} = {FD68E35A-AA4B-4A35-883D-E2A53BF00544}
 		{298A50F0-1227-4A55-BD31-A99878123288} = {FD68E35A-AA4B-4A35-883D-E2A53BF00544}
 		{BC9DB57A-EDEE-4826-A77C-F8F76A066A2E} = {FD68E35A-AA4B-4A35-883D-E2A53BF00544}
+		{87D570EE-954D-4DBE-85C0-9B0B75A2A081} = {59680966-F96E-4BCE-B878-D88AD9C5695E}
 	EndGlobalSection
 EndGlobal
