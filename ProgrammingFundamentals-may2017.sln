@@ -377,6 +377,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_PhonebookUpgrade", "L17
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_AMinerTask", "L17_DictionariesLambdaAndLinq-Exercises\P03_AMinerTask\P03_AMinerTask.csproj", "{2BDF544C-8062-4569-8D44-8D67A1881B25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_FixEmails", "L17_DictionariesLambdaAndLinq-Exercises\P04_FixEmails\P04_FixEmails.csproj", "{95D7D94F-4256-490D-BD19-AF2AA63F4256}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1059,6 +1061,10 @@ Global
 		{2BDF544C-8062-4569-8D44-8D67A1881B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BDF544C-8062-4569-8D44-8D67A1881B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BDF544C-8062-4569-8D44-8D67A1881B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D7D94F-4256-490D-BD19-AF2AA63F4256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D7D94F-4256-490D-BD19-AF2AA63F4256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D7D94F-4256-490D-BD19-AF2AA63F4256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D7D94F-4256-490D-BD19-AF2AA63F4256}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1233,5 +1239,6 @@ Global
 		{87D570EE-954D-4DBE-85C0-9B0B75A2A081} = {59680966-F96E-4BCE-B878-D88AD9C5695E}
 		{FFF8BED9-DCFF-4DAA-BCA7-8A895565BEB8} = {59680966-F96E-4BCE-B878-D88AD9C5695E}
 		{2BDF544C-8062-4569-8D44-8D67A1881B25} = {59680966-F96E-4BCE-B878-D88AD9C5695E}
+		{95D7D94F-4256-490D-BD19-AF2AA63F4256} = {59680966-F96E-4BCE-B878-D88AD9C5695E}
 	EndGlobalSection
 EndGlobal
