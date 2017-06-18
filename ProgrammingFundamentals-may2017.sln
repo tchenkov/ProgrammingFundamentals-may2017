@@ -359,6 +359,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L16_DictionariesLambdaAndLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_CountRealNumbers", "L16_DictionariesLambdaAndLinq-Lab\P01_CountRealNumbers\P01_CountRealNumbers.csproj", "{1812B7BC-5B75-495C-A761-3421AC5ABE56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_OddOccurrences", "L16_DictionariesLambdaAndLinq-Lab\P02_OddOccurrences\P02_OddOccurrences.csproj", "{4C931969-B4E5-41E8-81B9-D81C8967CF8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1009,6 +1011,10 @@ Global
 		{1812B7BC-5B75-495C-A761-3421AC5ABE56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1812B7BC-5B75-495C-A761-3421AC5ABE56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1812B7BC-5B75-495C-A761-3421AC5ABE56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C931969-B4E5-41E8-81B9-D81C8967CF8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C931969-B4E5-41E8-81B9-D81C8967CF8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C931969-B4E5-41E8-81B9-D81C8967CF8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C931969-B4E5-41E8-81B9-D81C8967CF8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1175,5 +1181,6 @@ Global
 		{BB1ABABA-B8C7-44D0-B162-5AA52BBA1D5F} = {269C8402-1CAB-470B-8FB6-32B9965B5B56}
 		{7113D1EF-5223-45CA-AE1C-855B6638C0CB} = {269C8402-1CAB-470B-8FB6-32B9965B5B56}
 		{1812B7BC-5B75-495C-A761-3421AC5ABE56} = {FD68E35A-AA4B-4A35-883D-E2A53BF00544}
+		{4C931969-B4E5-41E8-81B9-D81C8967CF8C} = {FD68E35A-AA4B-4A35-883D-E2A53BF00544}
 	EndGlobalSection
 EndGlobal
