@@ -80,14 +80,12 @@ namespace P05_ArrayManipulator
 
         static void SumPairs(List<int> numList)
         {
-            var tempList = new List<int>();
             var listLength = numList.Count;
-            for (int i = 0; i < numList.Count - 1; i += 2)
+            for (int i = 0; i < numList.Count - 1; i++)
             {
-                tempList.Add(numList[i] + numList[i + 1]);                
+                numList[i] += numList[i + 1];
+                numList.RemoveAt(i + 1);
             }
-            numList.Clear();
-            numList = tempList;
         }
     }
 }
