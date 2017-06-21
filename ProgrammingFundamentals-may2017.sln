@@ -387,6 +387,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07_PopulationCounter", "L1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08_LogsAggregator", "L17_DictionariesLambdaAndLinq-Exercises\P08_LogsAggregator\P08_LogsAggregator.csproj", "{DBD99B49-DB7B-4C5F-9991-4DCFD0CC4478}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09_LegendaryFarming", "L17_DictionariesLambdaAndLinq-Exercises\P09_LegendaryFarming\P09_LegendaryFarming.csproj", "{9D6B6EBC-CA82-45CC-A76E-9548C7B7BE37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1089,6 +1091,10 @@ Global
 		{DBD99B49-DB7B-4C5F-9991-4DCFD0CC4478}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBD99B49-DB7B-4C5F-9991-4DCFD0CC4478}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBD99B49-DB7B-4C5F-9991-4DCFD0CC4478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D6B6EBC-CA82-45CC-A76E-9548C7B7BE37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D6B6EBC-CA82-45CC-A76E-9548C7B7BE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D6B6EBC-CA82-45CC-A76E-9548C7B7BE37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D6B6EBC-CA82-45CC-A76E-9548C7B7BE37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1268,5 +1274,6 @@ Global
 		{40DE285A-8272-4A5D-A53F-23C82592A254} = {59680966-F96E-4BCE-B878-D88AD9C5695E}
 		{E2DADB94-5C75-45BC-ACA9-02BF96B0E70D} = {59680966-F96E-4BCE-B878-D88AD9C5695E}
 		{DBD99B49-DB7B-4C5F-9991-4DCFD0CC4478} = {59680966-F96E-4BCE-B878-D88AD9C5695E}
+		{9D6B6EBC-CA82-45CC-A76E-9548C7B7BE37} = {59680966-F96E-4BCE-B878-D88AD9C5695E}
 	EndGlobalSection
 EndGlobal
