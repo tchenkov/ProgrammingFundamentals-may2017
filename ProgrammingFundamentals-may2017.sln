@@ -389,6 +389,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08_LogsAggregator", "L17_D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09_LegendaryFarming", "L17_DictionariesLambdaAndLinq-Exercises\P09_LegendaryFarming\P09_LegendaryFarming.csproj", "{9D6B6EBC-CA82-45CC-A76E-9548C7B7BE37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10_SrybskoUnleashed", "L17_DictionariesLambdaAndLinq-Exercises\P10_SrybskoUnleashed\P10_SrybskoUnleashed.csproj", "{FA3BB9BF-F249-4292-96FD-83B06DE00288}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L18_DictionariesAndLists-MoreExercises", "L18_DictionariesAndLists-MoreExercises", "{3079ECFC-B115-4BBA-AB89-86610942C388}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1095,6 +1099,10 @@ Global
 		{9D6B6EBC-CA82-45CC-A76E-9548C7B7BE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D6B6EBC-CA82-45CC-A76E-9548C7B7BE37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D6B6EBC-CA82-45CC-A76E-9548C7B7BE37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA3BB9BF-F249-4292-96FD-83B06DE00288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA3BB9BF-F249-4292-96FD-83B06DE00288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA3BB9BF-F249-4292-96FD-83B06DE00288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA3BB9BF-F249-4292-96FD-83B06DE00288}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1275,5 +1283,6 @@ Global
 		{E2DADB94-5C75-45BC-ACA9-02BF96B0E70D} = {59680966-F96E-4BCE-B878-D88AD9C5695E}
 		{DBD99B49-DB7B-4C5F-9991-4DCFD0CC4478} = {59680966-F96E-4BCE-B878-D88AD9C5695E}
 		{9D6B6EBC-CA82-45CC-A76E-9548C7B7BE37} = {59680966-F96E-4BCE-B878-D88AD9C5695E}
+		{FA3BB9BF-F249-4292-96FD-83B06DE00288} = {59680966-F96E-4BCE-B878-D88AD9C5695E}
 	EndGlobalSection
 EndGlobal
