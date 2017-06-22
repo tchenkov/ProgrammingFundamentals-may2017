@@ -395,6 +395,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L18_DictionariesAndLists-Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_SortTimes", "L18_DictionariesAndLists-MoreExercises\P01_SortTimes\P01_SortTimes.csproj", "{947897A4-9700-44D7-995B-15509C52F30E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_OddFilter", "L18_DictionariesAndLists-MoreExercises\P02_OddFilter\P02_OddFilter.csproj", "{08EA91C9-46D8-4203-A65A-33621D187FF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1109,6 +1111,10 @@ Global
 		{947897A4-9700-44D7-995B-15509C52F30E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{947897A4-9700-44D7-995B-15509C52F30E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{947897A4-9700-44D7-995B-15509C52F30E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08EA91C9-46D8-4203-A65A-33621D187FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EA91C9-46D8-4203-A65A-33621D187FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EA91C9-46D8-4203-A65A-33621D187FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EA91C9-46D8-4203-A65A-33621D187FF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1291,5 +1297,6 @@ Global
 		{9D6B6EBC-CA82-45CC-A76E-9548C7B7BE37} = {59680966-F96E-4BCE-B878-D88AD9C5695E}
 		{FA3BB9BF-F249-4292-96FD-83B06DE00288} = {59680966-F96E-4BCE-B878-D88AD9C5695E}
 		{947897A4-9700-44D7-995B-15509C52F30E} = {3079ECFC-B115-4BBA-AB89-86610942C388}
+		{08EA91C9-46D8-4203-A65A-33621D187FF8} = {3079ECFC-B115-4BBA-AB89-86610942C388}
 	EndGlobalSection
 EndGlobal
