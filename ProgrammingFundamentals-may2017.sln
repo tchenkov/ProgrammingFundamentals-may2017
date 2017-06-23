@@ -403,6 +403,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_SupermarketDatabase", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_ParkingValidation", "L18_DictionariesAndLists-MoreExercises\P05_ParkingValidation\P05_ParkingValidation.csproj", "{428C604A-01FE-4BD7-9A2D-FFD201E882C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_DragonArmy", "L17_DictionariesLambdaAndLinq-Exercises\P11_DragonArmy\P11_DragonArmy.csproj", "{7ABD2A7C-A304-477C-A613-08142CC13FC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1133,6 +1135,10 @@ Global
 		{428C604A-01FE-4BD7-9A2D-FFD201E882C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{428C604A-01FE-4BD7-9A2D-FFD201E882C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{428C604A-01FE-4BD7-9A2D-FFD201E882C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ABD2A7C-A304-477C-A613-08142CC13FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ABD2A7C-A304-477C-A613-08142CC13FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ABD2A7C-A304-477C-A613-08142CC13FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ABD2A7C-A304-477C-A613-08142CC13FC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1319,5 +1325,6 @@ Global
 		{C5AD1067-E0C2-4252-836C-CAFDE2CFC49A} = {3079ECFC-B115-4BBA-AB89-86610942C388}
 		{5E55D21E-D8CB-410B-A333-651894A5DDE3} = {3079ECFC-B115-4BBA-AB89-86610942C388}
 		{428C604A-01FE-4BD7-9A2D-FFD201E882C2} = {3079ECFC-B115-4BBA-AB89-86610942C388}
+		{7ABD2A7C-A304-477C-A613-08142CC13FC4} = {59680966-F96E-4BCE-B878-D88AD9C5695E}
 	EndGlobalSection
 EndGlobal
