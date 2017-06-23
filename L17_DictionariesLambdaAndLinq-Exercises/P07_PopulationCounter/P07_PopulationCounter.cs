@@ -10,82 +10,60 @@ namespace P07_PopulationCounter
         {
             var countryCityPopulation =
                 new Dictionary<string, Dictionary<string, ulong>>();
+            var countryPopulation = new Dictionary<string, ulong>();
+            GetPopulation(countryCityPopulation, countryPopulation);
+
+            PrintReport(countryCityPopulation, countryPopulation);
+        }
+
+        static void GetPopulation(
+            Dictionary<string, Dictionary<string, ulong>> countryCityPopulation,
+            Dictionary<string, ulong> countryPopulation)
+        {
             var command = Console.ReadLine();
 
             while (command != "report")
             {
-                GetcountryCityPopulation(countryCityPopulation, command);
+                var commandLineList = command.Split('|').ToList();
+                var country = commandLineList[1];
+                var city = commandLineList[0];
+                var currentPopulation = ulong.Parse(commandLineList[2]);
+
+                if (!countryCityPopulation.ContainsKey(country))
+                {
+                    countryCityPopulation[country] = new Dictionary<string, ulong>();
+                    countryPopulation[country] = 0;
+
+                }
+                if (!countryCityPopulation[country].ContainsKey(city))
+                {
+                    countryCityPopulation[country][city] = 0;
+                }
+
+                countryPopulation[country] += currentPopulation;
+                countryCityPopulation[country][city] += currentPopulation;
+                countryCityPopulation[country] = 
+                    countryCityPopulation[country]
+                    .OrderByDescending(x => x.Value)
+                    .ToDictionary(k => k.Key, x => x.Value);
 
                 command = Console.ReadLine();
             }
-
-            PrintReport(countryCityPopulation);
         }
-
+        
         static void PrintReport(
-            Dictionary<string, Dictionary<string, ulong>> countryCityPopulation)
-        {
-            var populationInCountry = new Dictionary<string, ulong>();
-            foreach (var country in countryCityPopulation)
-            {
-                ulong countryPopulation = GetCountryPopulation(country.Value);
-                if (!populationInCountry.ContainsKey(country.Key))
-                {
-                    populationInCountry[country.Key] = 0;
-                }
-                populationInCountry[country.Key] = countryPopulation;
-            }
-            populationInCountry = populationInCountry.OrderByDescending(x => x.Value).ToDictionary(k => k.Key, x => x.Value);
-
-            foreach (var country in populationInCountry)
-            {
-                var cityAndPopulationList = GetCityAndPopulationList(countryCityPopulation[country.Key]);
-                Console.WriteLine($"{country.Key} (total population: {country.Value})");
-                Console.WriteLine(string.Join("\n", cityAndPopulationList));
-            }
-        }
-
-        static List<string> GetCityAndPopulationList(Dictionary<string, ulong> cityDict)
-        {
-            var result = new List<string>();
-            foreach (var city in cityDict)
-            {
-                result.Add($"=>{city.Key}: {city.Value}");
-            }
-            return result;
-        }
-
-        static ulong GetCountryPopulation(Dictionary<string, ulong> country)
-        {
-            ulong population = 0;
-            foreach (var city in country)
-            {
-                population += city.Value;
-            }
-
-            return population;
-        }
-
-        static void GetcountryCityPopulation(
             Dictionary<string, Dictionary<string, ulong>> countryCityPopulation,
-            string command)
+            Dictionary<string, ulong> countryPopulation)
         {
-            var commandLineList = command.Split('|').ToList();
-            var country = commandLineList[1];
-            var city = commandLineList[0];
-            var currentPopulation = ulong.Parse(commandLineList[2]);
+           countryPopulation = countryPopulation.OrderByDescending(x => x.Value).ToDictionary(k => k.Key, x => x.Value);
 
-            if (!countryCityPopulation.ContainsKey(country))
+            foreach (var country in countryPopulation)
             {
-                countryCityPopulation[country] = new Dictionary<string, ulong>();
+                Console.WriteLine($"{country.Key} (total population: {country.Value})");
+                Console.WriteLine(string.Join("\n", 
+                    countryCityPopulation[country.Key]
+                    .Select(cityPopulation => $"=>{cityPopulation.Key}: {cityPopulation.Value}")));
             }
-            if (!countryCityPopulation[country].ContainsKey(city))
-            {
-                countryCityPopulation[country][city] = 0;
-            }
-
-            countryCityPopulation[country][city] += currentPopulation;
-            countryCityPopulation[country] = countryCityPopulation[country].OrderByDescending(x => x.Value).ToDictionary(k => k.Key, x => x.Value);
         }
     }
 }
