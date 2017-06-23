@@ -8,10 +8,10 @@ namespace P08_LogsAggregator
     {
         static void Main(string[] args)
         {
-            var inputsCount = int.Parse(Console.ReadLine());
+            
             var userIpList = new Dictionary<string, List<string>>();
             var userOverAllDuratiuon = new SortedDictionary<string, double>();
-            GetUserIpData(inputsCount, userIpList, userOverAllDuratiuon);
+            GetUserIpData(userIpList, userOverAllDuratiuon);
 
             foreach (var user in userOverAllDuratiuon)
             {
@@ -19,10 +19,12 @@ namespace P08_LogsAggregator
             }
         }
 
-        static void GetUserIpData(int inputsCount,
+        static void GetUserIpData(
             Dictionary<string, List<string>> userIpList,
             SortedDictionary<string, double> userOverAllDuratiuon)
         {
+            var inputsCount = int.Parse(Console.ReadLine());
+
             for (int i = 0; i < inputsCount; i++)
             {
                 var inputList = Console.ReadLine()
