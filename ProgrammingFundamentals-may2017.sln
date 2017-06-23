@@ -401,6 +401,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_ImmuneSystem", "L18_Dic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_SupermarketDatabase", "L18_DictionariesAndLists-MoreExercises\P04_SupermarketDatabase\P04_SupermarketDatabase.csproj", "{5E55D21E-D8CB-410B-A333-651894A5DDE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_ParkingValidation", "L18_DictionariesAndLists-MoreExercises\P05_ParkingValidation\P05_ParkingValidation.csproj", "{428C604A-01FE-4BD7-9A2D-FFD201E882C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1127,6 +1129,10 @@ Global
 		{5E55D21E-D8CB-410B-A333-651894A5DDE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E55D21E-D8CB-410B-A333-651894A5DDE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E55D21E-D8CB-410B-A333-651894A5DDE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{428C604A-01FE-4BD7-9A2D-FFD201E882C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{428C604A-01FE-4BD7-9A2D-FFD201E882C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{428C604A-01FE-4BD7-9A2D-FFD201E882C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{428C604A-01FE-4BD7-9A2D-FFD201E882C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1312,5 +1318,6 @@ Global
 		{08EA91C9-46D8-4203-A65A-33621D187FF8} = {3079ECFC-B115-4BBA-AB89-86610942C388}
 		{C5AD1067-E0C2-4252-836C-CAFDE2CFC49A} = {3079ECFC-B115-4BBA-AB89-86610942C388}
 		{5E55D21E-D8CB-410B-A333-651894A5DDE3} = {3079ECFC-B115-4BBA-AB89-86610942C388}
+		{428C604A-01FE-4BD7-9A2D-FFD201E882C2} = {3079ECFC-B115-4BBA-AB89-86610942C388}
 	EndGlobalSection
 EndGlobal

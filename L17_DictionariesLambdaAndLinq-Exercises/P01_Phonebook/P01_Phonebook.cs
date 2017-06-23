@@ -21,25 +21,36 @@ namespace P01_Phonebook
 
                 if (instruction == "A")
                 {
-                    var phoneNumber = commandList[2];
-                    if (!phoneBook.ContainsKey(name))
-                    {
-                        phoneBook[name] = string.Empty;
-                    }
-                    phoneBook[name] = phoneNumber;
+                    AddPhoneNumber(phoneBook, commandList, name);
                 }
 
                 if (instruction == "S")
                 {
-                    Console.WriteLine(
-                        phoneBook.ContainsKey(name) ?
-                        $"{name} -> {phoneBook[name]}" :
-                        $"Contact {name} does not exist."
-                        );
+                    SearchPhoneNumberByName(phoneBook, name);
                 }
 
                 command = Console.ReadLine();
             }
+        }
+
+        private static void SearchPhoneNumberByName(Dictionary<string, string> phoneBook, string name)
+        {
+            Console.WriteLine(
+                phoneBook.ContainsKey(name) ?
+                $"{name} -> {phoneBook[name]}" :
+                $"Contact {name} does not exist."
+                );
+        }
+
+        static void AddPhoneNumber(Dictionary<string, string> phoneBook,
+            List<string> commandList, string name)
+        {
+            var phoneNumber = commandList[2];
+            if (!phoneBook.ContainsKey(name))
+            {
+                phoneBook[name] = string.Empty;
+            }
+            phoneBook[name] = phoneNumber;
         }
     }
 }
