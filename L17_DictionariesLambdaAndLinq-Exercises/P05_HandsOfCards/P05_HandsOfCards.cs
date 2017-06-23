@@ -26,18 +26,6 @@ namespace P05_HandsOfCards
             }
         }
 
-        static void CalcHandsValues(Dictionary<string, List<string>> handsOfCards, Dictionary<string, int> handsValue)
-        {
-            foreach (var item in handsOfCards)
-            {
-                if (!handsValue.ContainsKey(item.Key))
-                {
-                    handsValue[item.Key] = 0;
-                }
-                handsValue[item.Key] += GetHandValue(item.Value);
-            }
-        }
-
         static void GetAllHands(Dictionary<string, List<string>> handsOfCards)
         {
             var command = Console.ReadLine();
@@ -61,6 +49,18 @@ namespace P05_HandsOfCards
             }
         }
 
+        static void CalcHandsValues(Dictionary<string, List<string>> handsOfCards, Dictionary<string, int> handsValue)
+        {
+            foreach (var item in handsOfCards)
+            {
+                if (!handsValue.ContainsKey(item.Key))
+                {
+                    handsValue[item.Key] = 0;
+                }
+                handsValue[item.Key] += GetHandValue(item.Value);
+            }
+        }
+
         static int GetHandValue(List<string> valuesList)
         {
             var sum = 0;
@@ -80,13 +80,13 @@ namespace P05_HandsOfCards
                 {'2', 2}, {'3', 3}, {'4', 4}, {'5', 5},
                 {'6', 6}, {'7', 7}, {'8', 8}, {'9', 9},
                 {'1', 10}, {'J', 11}, {'Q', 12}, {'K', 13},
-                {'A', 14},                
+                {'A', 14},
             };
 
             var value = cardValues[card[0]];
-            var multiplier = cardValues[card[card.Length -1]];
+            var multiplier = cardValues[card[card.Length - 1]];
             var result = value * multiplier;
-            
+
             return result;
         }
     }
