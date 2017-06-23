@@ -13,17 +13,7 @@ namespace P04_FixEmails
             while (name != "stop")
             {
                 var eMailAddress = Console.ReadLine();
-                bool isEMailValid = !eMailAddress.EndsWith(".us") && !eMailAddress.EndsWith(".uk");
-
-                if (isEMailValid)
-                {
-                    if (!addressBook.ContainsKey(name))
-                    {
-                        addressBook[name] = string.Empty;
-                    }
-                    addressBook[name] = eMailAddress;
-                }
-
+                AddValidEMailToAddressBook(addressBook, name, eMailAddress);
 
                 name = Console.ReadLine();
             }
@@ -31,6 +21,20 @@ namespace P04_FixEmails
             foreach (var item in addressBook)
             {
                 Console.WriteLine($"{item.Key} -> {item.Value}");
+            }
+        }
+
+        static void AddValidEMailToAddressBook(Dictionary<string, string> addressBook, string name, string eMailAddress)
+        {
+            bool isEMailValid = !eMailAddress.EndsWith(".us") && !eMailAddress.EndsWith(".uk");
+
+            if (isEMailValid)
+            {
+                if (!addressBook.ContainsKey(name))
+                {
+                    addressBook[name] = string.Empty;
+                }
+                addressBook[name] = eMailAddress;
             }
         }
     }
