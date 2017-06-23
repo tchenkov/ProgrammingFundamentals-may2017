@@ -29,33 +29,16 @@ namespace P02_PhonebookUpgrade // Update, It's a software afterall :)
 
                 if (instruction == "S")
                 {
-                    PrintPhoneBookEntryOrMessage(phoneBook, name);
+                    SearchPhoneByName(phoneBook, name);
                 }
 
                 if (instruction == "ListAll")
                 {
-                    PrintPhoneBookEntryOrMessage(phoneBook);
+                    PrintPhoneBookEntries(phoneBook);
                 }
 
                 command = Console.ReadLine();
             }
-        }
-
-        static void PrintPhoneBookEntryOrMessage(SortedDictionary<string, string> phoneBook)
-        {
-            foreach (var item in phoneBook)
-            {
-                Console.WriteLine($"{item.Key} -> {item.Value}");
-            }
-        }
-
-        private static void PrintPhoneBookEntryOrMessage(SortedDictionary<string, string> phoneBook, string name)
-        {
-            Console.WriteLine(
-                phoneBook.ContainsKey(name) ?
-                $"{name} -> {phoneBook[name]}" :
-                $"Contact {name} does not exist."
-                );
         }
 
         static void AddToPhoneBook(SortedDictionary<string, string> phoneBook, string name, string phoneNumber)
@@ -65,6 +48,23 @@ namespace P02_PhonebookUpgrade // Update, It's a software afterall :)
                 phoneBook[name] = string.Empty;
             }
             phoneBook[name] = phoneNumber;
+        }
+
+        static void SearchPhoneByName(SortedDictionary<string, string> phoneBook, string name)
+        {
+            Console.WriteLine(
+                phoneBook.ContainsKey(name) ?
+                $"{name} -> {phoneBook[name]}" :
+                $"Contact {name} does not exist."
+                );
+        }
+
+        static void PrintPhoneBookEntries(SortedDictionary<string, string> phoneBook)
+        {
+            foreach (var item in phoneBook)
+            {
+                Console.WriteLine($"{item.Key} -> {item.Value}");
+            }
         }
     }
 }
