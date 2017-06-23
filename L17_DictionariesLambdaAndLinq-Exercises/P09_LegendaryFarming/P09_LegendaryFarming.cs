@@ -8,15 +8,41 @@ namespace P09_LegendaryFarming
     {
         static void Main(string[] args)
         {
-            bool isLegendaryObtained = false;
             var legendaryMats = new Dictionary<string, int>
-            { {"Shards", 0},{ "Fragments", 0 },{"Motes", 0 } };
+            {
+                { "Shards", 0},{ "Fragments", 0 },{"Motes", 0 }
+            };
             var junkMats = new SortedDictionary<string, int>();
             var legendaryName = string.Empty;
 
+            GetMats(ref legendaryMats, junkMats, ref legendaryName);
+
+            PrintLegendaryFarming(legendaryMats, junkMats, legendaryName);
+        }
+
+        static void PrintLegendaryFarming(Dictionary<string, int> legendaryMats,
+            SortedDictionary<string, int> junkMats,
+            string legendaryName)
+        {
+            Console.WriteLine($"{legendaryName} obtained!");
+            foreach (var item in legendaryMats)
+            {
+                Console.WriteLine($"{item.Key.ToLower()}: {item.Value}");
+            }
+            foreach (var item in junkMats)
+            {
+                Console.WriteLine($"{item.Key}: {item.Value}");
+            }
+        }
+
+        static void GetMats(ref Dictionary<string, int> legendaryMats,
+            SortedDictionary<string, int> junkMats,
+            ref string legendaryName)
+        {
+            bool isLegendaryObtained = false;
             while (!isLegendaryObtained)
             {
-                var inputList = Console.ReadLine().ToLower().Split(' '). ToList();
+                var inputList = Console.ReadLine().ToLower().Split(' ').ToList();
                 var matsNames = inputList.Where((v, i) => i % 2 == 1).ToList();
                 var matsQuantities = inputList.Where((v, i) => i % 2 == 0).Select(int.Parse).ToList();
 
@@ -32,24 +58,25 @@ namespace P09_LegendaryFarming
                             legendaryMats[key] = 0;
                         }
                         legendaryMats[key] += item.Item2;
-                        //legendaryMats = legendaryMats.OrderBy(x => x.Value).ThenBy(k => k.Key).ToDictionary(k => k.Key, x => x.Value);
+
                         if (legendaryMats[key] >= 250)
                         {
                             isLegendaryObtained = true;
-                            switch (key)
-                            {
-                                case "Shards":
-                                    legendaryName = "Shadowmourne";
-                                    break;
-                                case "Fragments":
-                                    legendaryName = "Valanyr";
-                                    break;
-                                case "Motes":
-                                    legendaryName = "Dragonwrath";
-                                    break;
-                            }
+
+                            legendaryName = key == "Shards" ?
+                                "Shadowmourne" :
+                                key == "Fragments" ?
+                                "Valanyr" :
+                                key == "Motes" ?
+                                "Dragonwrath" :
+                                string.Empty;
+
                             legendaryMats[key] -= 250;
-                            legendaryMats = legendaryMats.OrderByDescending(x => x.Value).ThenBy(k => k.Key).ToDictionary(k => k.Key, x => x.Value);
+
+                            legendaryMats = legendaryMats
+                                .OrderByDescending(x => x.Value)
+                                .ThenBy(k => k.Key)
+                                .ToDictionary(k => k.Key, x => x.Value);
                             break;
                         }
                     }
@@ -63,17 +90,6 @@ namespace P09_LegendaryFarming
                     }
                 }
             }
-
-            Console.WriteLine($"{legendaryName} obtained!");
-            foreach (var item in legendaryMats)
-            {
-                Console.WriteLine($"{item.Key.ToLower()}: {item.Value}");
-            }
-            foreach (var item in junkMats)
-            {
-                Console.WriteLine($"{item.Key}: {item.Value}");
-            }
-
         }
     }
 }
