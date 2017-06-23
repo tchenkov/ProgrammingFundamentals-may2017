@@ -21,8 +21,10 @@ namespace P06_UserLogs
             foreach (var user in userIpMessageCount)
             {
                 Console.WriteLine($"{user.Key}:");
-                var ipCountList = NewMethod(userIpMessageCount, user);
-                Console.WriteLine($"{string.Join(", ", ipCountList)}.");
+                
+                Console.Write(string.Join(", ", 
+                    user.Value.Select(ipCount => ipCount.Key + " => " + ipCount.Value)));
+                Console.WriteLine(".");
             }
         }
 
@@ -43,19 +45,6 @@ namespace P06_UserLogs
                 userIpMessageCount[user][ipAddress] = 0;
             }
             userIpMessageCount[user][ipAddress]++;
-        }
-
-        static List<string> NewMethod(
-            SortedDictionary<string, Dictionary<string, int>> userIpMessageCount,
-            KeyValuePair<string, Dictionary<string, int>> user)
-        {
-            var tempIpList = new List<string>();
-            foreach (var ipCount in userIpMessageCount[user.Key])
-            {
-                tempIpList.Add($"{ipCount.Key} => {ipCount.Value}");
-            }
-
-            return tempIpList;
         }
     }
 }
