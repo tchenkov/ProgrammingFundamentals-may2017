@@ -16,7 +16,7 @@ namespace P03_ImmuneSystem
 
             var command = Console.ReadLine();
 
-            while (command != "end")
+            while (command != "end" && currentHealth > 0)
             {
                 var virusName = command;
                 var virusStrenght = command.Sum(x => x);
@@ -28,18 +28,20 @@ namespace P03_ImmuneSystem
                     defeatTimeSeconds;
                 currentHealth -= defeatTimeSeconds;
 
-                if (currentHealth < 0)
+                if (currentHealth <= 0)
                 {
                     imuneSystemLog.Add($"Virus {virusName}: {virusStrenght} => {defeatTimeSeconds} seconds");
-                    break;
+                    continue;
                 }
 
                 var defeatTime = CalcDefeatTime(defeatTimeSeconds);
 
                 knownViruses.Add(virusName);
+
                 var result = $"Virus {virusName}: {virusStrenght} => {defeatTimeSeconds} seconds\n";
                 result += $"{virusName} defeated in {defeatTime}.\n";
                 result += $"Remaining health: {currentHealth}";
+
                 imuneSystemLog.Add(result);
                 currentHealth =
                     (int)(currentHealth * 1.2) > maxHealth ?
