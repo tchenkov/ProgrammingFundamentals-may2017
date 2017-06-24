@@ -407,6 +407,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_DragonArmy", "L17_Dicti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_ByteFlip", "L18_DictionariesAndLists-MoreExercises\P06_ByteFlip\P06_ByteFlip.csproj", "{6C564FBA-970E-4B36-8B13-ABBAAF5DB2D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07_TakeSkipRope", "L18_DictionariesAndLists-MoreExercises\P07_TakeSkipRope\P07_TakeSkipRope.csproj", "{2A9C56A5-8DBA-4F9F-BD65-B0F994F9BDD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1145,6 +1147,10 @@ Global
 		{6C564FBA-970E-4B36-8B13-ABBAAF5DB2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C564FBA-970E-4B36-8B13-ABBAAF5DB2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C564FBA-970E-4B36-8B13-ABBAAF5DB2D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A9C56A5-8DBA-4F9F-BD65-B0F994F9BDD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9C56A5-8DBA-4F9F-BD65-B0F994F9BDD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9C56A5-8DBA-4F9F-BD65-B0F994F9BDD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A9C56A5-8DBA-4F9F-BD65-B0F994F9BDD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1333,5 +1339,6 @@ Global
 		{428C604A-01FE-4BD7-9A2D-FFD201E882C2} = {3079ECFC-B115-4BBA-AB89-86610942C388}
 		{7ABD2A7C-A304-477C-A613-08142CC13FC4} = {59680966-F96E-4BCE-B878-D88AD9C5695E}
 		{6C564FBA-970E-4B36-8B13-ABBAAF5DB2D8} = {3079ECFC-B115-4BBA-AB89-86610942C388}
+		{2A9C56A5-8DBA-4F9F-BD65-B0F994F9BDD8} = {3079ECFC-B115-4BBA-AB89-86610942C388}
 	EndGlobalSection
 EndGlobal
