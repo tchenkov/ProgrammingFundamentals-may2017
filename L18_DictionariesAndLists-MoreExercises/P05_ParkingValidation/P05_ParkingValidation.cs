@@ -21,24 +21,24 @@ namespace P05_ParkingValidation
                 {
                     var plate = commnadList[2];
 
-                    if (registredUsersAndPlates.ContainsKey(user))
-                    {
-                        Console.WriteLine($"ERROR: already registered with plate number {registredUsersAndPlates[user]}");
-                        continue;
-                    }
                     if (IsPlateInvalid(plate))
                     {
                         Console.WriteLine($"ERROR: invalid license plate {plate}");
                         continue;
                     }
+                    if (registredUsersAndPlates.ContainsKey(user))
+                    {
+                        Console.WriteLine($"ERROR: already registered with plate number {registredUsersAndPlates[user]}");
+                        continue;
+                    }
                     if (registredUsersAndPlates.ContainsValue(plate))
                     {
-                        Console.WriteLine($"ERROR: license plate {plate} is busy");
+                        Console.WriteLine($"ERROR: license plate {plate} is busy"); // <====
                         continue;
                     }
                     registredUsersAndPlates[user] = plate;
                     Console.WriteLine($"{user} registered {plate} successfully");
-
+                    continue;
                 }
 
                 if (instruction == "unregister")
@@ -50,7 +50,9 @@ namespace P05_ParkingValidation
                     }
                     registredUsersAndPlates.Remove(user);
                     Console.WriteLine($"user {user} unregistered successfully");
+                    continue;
                 }
+                Console.WriteLine("No such command!");
             }
 
             foreach (var user in registredUsersAndPlates)
