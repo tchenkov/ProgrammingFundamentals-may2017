@@ -29,8 +29,8 @@ namespace P04_SupermarketDatabase
 
                 command = Console.ReadLine();
             }
-            var grandTotal = 0.0;
 
+            var grandTotal = 0.0;
             foreach (var product in productsPrices.Zip(productsQuantities, Tuple.Create))
             {
                 var currentProductTotalPrice = product.Item1.Value * product.Item2.Value;
