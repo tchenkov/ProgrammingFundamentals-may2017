@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace P05_ParkingValidation
 {
@@ -13,51 +11,45 @@ namespace P05_ParkingValidation
             var registredUsersAndPlates = new Dictionary<string, string>();
 
             var entrtiesCount = int.Parse(Console.ReadLine());
-            
+
             for (int i = 0; i < entrtiesCount; i++)
             {
                 var commnadList = Console.ReadLine().Split(' ').ToList();
                 var instruction = commnadList[0];
+                var user = commnadList[1];
                 if (instruction == "register")
                 {
-                    var user = commnadList[1];
                     var plate = commnadList[2];
 
-                    if (IsPlateInvalid(plate))
-                    {
-                        Console.WriteLine($"ERROR: invalid license plate {plate}"); // ok
-                        continue;
-                    }
                     if (registredUsersAndPlates.ContainsKey(user))
                     {
-                        Console.WriteLine($"ERROR: already registered with plate number {registredUsersAndPlates[user]}"); // ok
+                        Console.WriteLine($"ERROR: already registered with plate number {registredUsersAndPlates[user]}");
                         continue;
                     }
-                    if (registredUsersAndPlates.ContainsValue(plate) &&
-                        registredUsersAndPlates.FirstOrDefault(x => x.Value == plate).Key != user)
+                    if (IsPlateInvalid(plate))
                     {
-                        Console.WriteLine($"ERROR: license plate {plate} is busy"); // ok
+                        Console.WriteLine($"ERROR: invalid license plate {plate}");
                         continue;
                     }
-                    if (!registredUsersAndPlates.ContainsKey(user))
+                    if (registredUsersAndPlates.ContainsValue(plate))
                     {
-                        registredUsersAndPlates[user] = plate;
-                        Console.WriteLine($"{user} registered {plate} successfully"); // ok
+                        Console.WriteLine($"ERROR: license plate {plate} is busy");
+                        continue;
                     }
+                    registredUsersAndPlates[user] = plate;
+                    Console.WriteLine($"{user} registered {plate} successfully");
+
                 }
 
                 if (instruction == "unregister")
                 {
-                    var user = commnadList[1];
                     if (!registredUsersAndPlates.ContainsKey(user))
                     {
-                        Console.WriteLine($"ERROR: user {user} not found");                        
+                        Console.WriteLine($"ERROR: user {user} not found");
+                        continue;
                     }
-                    else
-                    {
-                        registredUsersAndPlates.Remove(user);
-                        Console.WriteLine($"user {user} unregistered successfully");
-                    }
+                    registredUsersAndPlates.Remove(user);
+                    Console.WriteLine($"user {user} unregistered successfully");
                 }
             }
 
