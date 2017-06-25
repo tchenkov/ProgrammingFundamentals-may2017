@@ -415,6 +415,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_DayOfWeek", "L19_Object
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_RandomizeWords", "L19_ObjectsAndClasses-Lab\P02_RandomizeWords\P02_RandomizeWords.csproj", "{3D37D6AD-38D6-47A8-8735-44A5839C3261}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_BigFactorial", "L19_ObjectsAndClasses-Lab\P03_BigFactorial\P03_BigFactorial.csproj", "{CE8002A0-8593-401E-9DE7-C050D91429E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1165,6 +1167,10 @@ Global
 		{3D37D6AD-38D6-47A8-8735-44A5839C3261}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D37D6AD-38D6-47A8-8735-44A5839C3261}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D37D6AD-38D6-47A8-8735-44A5839C3261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8002A0-8593-401E-9DE7-C050D91429E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8002A0-8593-401E-9DE7-C050D91429E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8002A0-8593-401E-9DE7-C050D91429E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8002A0-8593-401E-9DE7-C050D91429E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1356,5 +1362,6 @@ Global
 		{2A9C56A5-8DBA-4F9F-BD65-B0F994F9BDD8} = {3079ECFC-B115-4BBA-AB89-86610942C388}
 		{151D2F65-14C4-467D-9FB4-BE4D15821F9B} = {EA803F51-A85D-4BD0-ABED-A099B13BF543}
 		{3D37D6AD-38D6-47A8-8735-44A5839C3261} = {EA803F51-A85D-4BD0-ABED-A099B13BF543}
+		{CE8002A0-8593-401E-9DE7-C050D91429E7} = {EA803F51-A85D-4BD0-ABED-A099B13BF543}
 	EndGlobalSection
 EndGlobal
