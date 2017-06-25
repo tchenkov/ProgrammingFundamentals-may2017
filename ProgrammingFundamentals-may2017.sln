@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.3
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L01_C-sharpIntroAndBasicSyntax-Lab", "L01_C-sharpIntroAndBasicSyntax-Lab", "{21BCFBA4-DCEA-45F8-88EE-7D6C988EAD31}"
 EndProject
@@ -408,6 +408,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_ByteFlip", "L18_DictionariesAndLists-MoreExercises\P06_ByteFlip\P06_ByteFlip.csproj", "{6C564FBA-970E-4B36-8B13-ABBAAF5DB2D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07_TakeSkipRope", "L18_DictionariesAndLists-MoreExercises\P07_TakeSkipRope\P07_TakeSkipRope.csproj", "{2A9C56A5-8DBA-4F9F-BD65-B0F994F9BDD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L19_ObjectsAndClasses-Lab", "L19_ObjectsAndClasses-Lab", "{EA803F51-A85D-4BD0-ABED-A099B13BF543}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
