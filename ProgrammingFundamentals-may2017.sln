@@ -435,6 +435,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_CirclesIntersection", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_AverageGrades", "L20_ObjectsAndClasses-Exercises\P04_AverageGrades\P04_AverageGrades.csproj", "{0953C695-ECE2-47B9-91CC-9F7FE6C9620E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_BookLibrary", "L20_ObjectsAndClasses-Exercises\P05_BookLibrary\P05_BookLibrary.csproj", "{2B32977B-0C25-4841-84F2-37268122AC96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1221,6 +1223,10 @@ Global
 		{0953C695-ECE2-47B9-91CC-9F7FE6C9620E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0953C695-ECE2-47B9-91CC-9F7FE6C9620E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0953C695-ECE2-47B9-91CC-9F7FE6C9620E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B32977B-0C25-4841-84F2-37268122AC96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B32977B-0C25-4841-84F2-37268122AC96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B32977B-0C25-4841-84F2-37268122AC96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B32977B-0C25-4841-84F2-37268122AC96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1421,5 +1427,6 @@ Global
 		{B779A1F5-84A4-457F-96B5-009D7B500563} = {07BE1782-3117-42B8-A196-9F996CE00150}
 		{AACAA937-4022-4932-8800-A201A281A0B2} = {07BE1782-3117-42B8-A196-9F996CE00150}
 		{0953C695-ECE2-47B9-91CC-9F7FE6C9620E} = {07BE1782-3117-42B8-A196-9F996CE00150}
+		{2B32977B-0C25-4841-84F2-37268122AC96} = {07BE1782-3117-42B8-A196-9F996CE00150}
 	EndGlobalSection
 EndGlobal
