@@ -423,6 +423,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_ClosestTwoPoints", "L19
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_RectanglePosition", "L19_ObjectsAndClasses-Lab\P06_RectanglePosition\P06_RectanglePosition.csproj", "{0FE0855E-87A1-4AB7-A27E-5CF2831EAE33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07_SalesReport", "L19_ObjectsAndClasses-Lab\P07_SalesReport\P07_SalesReport.csproj", "{2690DFA3-B6D0-49B0-B97D-857045E5961D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1189,6 +1191,10 @@ Global
 		{0FE0855E-87A1-4AB7-A27E-5CF2831EAE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FE0855E-87A1-4AB7-A27E-5CF2831EAE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FE0855E-87A1-4AB7-A27E-5CF2831EAE33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2690DFA3-B6D0-49B0-B97D-857045E5961D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2690DFA3-B6D0-49B0-B97D-857045E5961D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2690DFA3-B6D0-49B0-B97D-857045E5961D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2690DFA3-B6D0-49B0-B97D-857045E5961D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1384,5 +1390,6 @@ Global
 		{4E788379-35F8-4B8E-80BF-2F5434235093} = {EA803F51-A85D-4BD0-ABED-A099B13BF543}
 		{8ADBC7F2-9374-47DE-AC14-208B37EBBE83} = {EA803F51-A85D-4BD0-ABED-A099B13BF543}
 		{0FE0855E-87A1-4AB7-A27E-5CF2831EAE33} = {EA803F51-A85D-4BD0-ABED-A099B13BF543}
+		{2690DFA3-B6D0-49B0-B97D-857045E5961D} = {EA803F51-A85D-4BD0-ABED-A099B13BF543}
 	EndGlobalSection
 EndGlobal
