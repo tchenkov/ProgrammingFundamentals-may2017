@@ -425,6 +425,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_RectanglePosition", "L1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07_SalesReport", "L19_ObjectsAndClasses-Lab\P07_SalesReport\P07_SalesReport.csproj", "{2690DFA3-B6D0-49B0-B97D-857045E5961D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L20_ObjectsAndClasses-Exercises", "L20_ObjectsAndClasses-Exercises", "{07BE1782-3117-42B8-A196-9F996CE00150}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
