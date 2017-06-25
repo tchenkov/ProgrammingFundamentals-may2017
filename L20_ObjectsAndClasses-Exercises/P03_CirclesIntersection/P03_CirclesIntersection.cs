@@ -22,7 +22,7 @@ namespace P03_CirclesIntersection
         static bool Intersect(Circle c1, Circle c2)
         {
             var distance = c1.Center.DistanceTo(c2.Center);
-            return distance < c1.Radius + c2.Radius ?
+            return distance <= c1.Radius + c2.Radius ?
                 true :
                 false;
         }
