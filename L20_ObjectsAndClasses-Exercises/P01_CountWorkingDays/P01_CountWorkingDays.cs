@@ -51,6 +51,8 @@ namespace P01_CountWorkingDays
                 new DateTime(2000, 3, 3),
                 new DateTime(2000, 5, 1),
                 new DateTime(2000, 5, 6),
+                new DateTime(2000, 5, 24),
+                new DateTime(2000, 9, 6),
                 new DateTime(2000, 9, 22),
                 new DateTime(2000, 11, 1),
                 new DateTime(2000, 12, 24),
