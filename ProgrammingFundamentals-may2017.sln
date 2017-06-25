@@ -429,6 +429,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L20_ObjectsAndClasses-Exerc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_CountWorkingDays", "L20_ObjectsAndClasses-Exercises\P01_CountWorkingDays\P01_CountWorkingDays.csproj", "{BF199556-42F9-49D4-A31F-97C6DA66B6CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_AdvertisementMessage", "L20_ObjectsAndClasses-Exercises\P02_AdvertisementMessage\P02_AdvertisementMessage.csproj", "{B779A1F5-84A4-457F-96B5-009D7B500563}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1203,6 +1205,10 @@ Global
 		{BF199556-42F9-49D4-A31F-97C6DA66B6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF199556-42F9-49D4-A31F-97C6DA66B6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF199556-42F9-49D4-A31F-97C6DA66B6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B779A1F5-84A4-457F-96B5-009D7B500563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B779A1F5-84A4-457F-96B5-009D7B500563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B779A1F5-84A4-457F-96B5-009D7B500563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B779A1F5-84A4-457F-96B5-009D7B500563}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1400,5 +1406,6 @@ Global
 		{0FE0855E-87A1-4AB7-A27E-5CF2831EAE33} = {EA803F51-A85D-4BD0-ABED-A099B13BF543}
 		{2690DFA3-B6D0-49B0-B97D-857045E5961D} = {EA803F51-A85D-4BD0-ABED-A099B13BF543}
 		{BF199556-42F9-49D4-A31F-97C6DA66B6CA} = {07BE1782-3117-42B8-A196-9F996CE00150}
+		{B779A1F5-84A4-457F-96B5-009D7B500563} = {07BE1782-3117-42B8-A196-9F996CE00150}
 	EndGlobalSection
 EndGlobal
