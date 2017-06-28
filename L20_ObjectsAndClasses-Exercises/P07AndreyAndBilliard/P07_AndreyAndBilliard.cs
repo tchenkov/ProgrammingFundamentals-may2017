@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace P07AndreyAndBilliard
+namespace P07_AndreyAndBilliard
 {
-    class P07AndreyAndBilliard
+    class P07_AndreyAndBilliard
     {
         static void Main(string[] args)
         {

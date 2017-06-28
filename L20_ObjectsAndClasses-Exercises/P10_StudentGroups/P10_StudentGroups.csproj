@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{76BCCE26-DBE5-43B4-BA4B-313AD95274E9}</ProjectGuid>
+    <ProjectGuid>{65BECF81-E812-480F-85EC-E473EB0F169C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>P07AndreyAndBilliard</RootNamespace>
-    <AssemblyName>P07AndreyAndBilliard</AssemblyName>
+    <RootNamespace>P10_StudentGroups</RootNamespace>
+    <AssemblyName>P10_StudentGroups</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="P07AndreyAndBilliard.cs" />
+    <Compile Include="P10_StudentGroups.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
