@@ -443,6 +443,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07AndreyAndBilliard", "L20
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08_MentorGroup", "L20_ObjectsAndClasses-Exercises\P08_MentorGroup\P08_MentorGroup.csproj", "{0B282D2D-DCA8-4FB3-9469-1BB5AC4AD09A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09_TeamworkProjects", "L20_ObjectsAndClasses-Exercises\P09_TeamworkProjects\P09_TeamworkProjects.csproj", "{6EBEA6CB-4ED7-4678-93D7-60E1FC77C049}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1245,6 +1247,10 @@ Global
 		{0B282D2D-DCA8-4FB3-9469-1BB5AC4AD09A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B282D2D-DCA8-4FB3-9469-1BB5AC4AD09A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B282D2D-DCA8-4FB3-9469-1BB5AC4AD09A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EBEA6CB-4ED7-4678-93D7-60E1FC77C049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBEA6CB-4ED7-4678-93D7-60E1FC77C049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBEA6CB-4ED7-4678-93D7-60E1FC77C049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBEA6CB-4ED7-4678-93D7-60E1FC77C049}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1449,5 +1455,6 @@ Global
 		{25CC0A66-C1B7-46A8-A531-BBA2BB9EFDFA} = {07BE1782-3117-42B8-A196-9F996CE00150}
 		{76BCCE26-DBE5-43B4-BA4B-313AD95274E9} = {07BE1782-3117-42B8-A196-9F996CE00150}
 		{0B282D2D-DCA8-4FB3-9469-1BB5AC4AD09A} = {07BE1782-3117-42B8-A196-9F996CE00150}
+		{6EBEA6CB-4ED7-4678-93D7-60E1FC77C049} = {07BE1782-3117-42B8-A196-9F996CE00150}
 	EndGlobalSection
 EndGlobal
