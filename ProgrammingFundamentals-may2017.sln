@@ -455,6 +455,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_VehicleCatalogue", "L21
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_Jarvis", "L21_ObjectsClassesFilesAndExceptions-MoreExercises\P03_Jarvis\P03_Jarvis.csproj", "{08598ECE-01DD-4A4A-BB31-97F7D97A7BCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_PunctuationFinder", "L21_ObjectsClassesFilesAndExceptions-MoreExercises\P04_PunctuationFinder\P04_PunctuationFinder.csproj", "{B0102B1F-F0BA-44AB-B965-10E93D5C39E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1277,6 +1279,10 @@ Global
 		{08598ECE-01DD-4A4A-BB31-97F7D97A7BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08598ECE-01DD-4A4A-BB31-97F7D97A7BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08598ECE-01DD-4A4A-BB31-97F7D97A7BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0102B1F-F0BA-44AB-B965-10E93D5C39E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0102B1F-F0BA-44AB-B965-10E93D5C39E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0102B1F-F0BA-44AB-B965-10E93D5C39E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0102B1F-F0BA-44AB-B965-10E93D5C39E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1486,5 +1492,6 @@ Global
 		{945D7DB5-C8AC-48E2-B32C-6F9D616484A1} = {9899EAAE-31F3-4D0B-BB05-F5E0DC2F651E}
 		{424C9065-05CA-4A01-A1AA-DC0CB562D3E2} = {9899EAAE-31F3-4D0B-BB05-F5E0DC2F651E}
 		{08598ECE-01DD-4A4A-BB31-97F7D97A7BCC} = {9899EAAE-31F3-4D0B-BB05-F5E0DC2F651E}
+		{B0102B1F-F0BA-44AB-B965-10E93D5C39E0} = {9899EAAE-31F3-4D0B-BB05-F5E0DC2F651E}
 	EndGlobalSection
 EndGlobal
