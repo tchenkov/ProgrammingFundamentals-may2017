@@ -453,6 +453,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_OrderByAge", "L21_Objec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_VehicleCatalogue", "L21_ObjectsClassesFilesAndExceptions-MoreExercises\P02_VehicleCatalogue\P02_VehicleCatalogue.csproj", "{424C9065-05CA-4A01-A1AA-DC0CB562D3E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_Jarvis", "L21_ObjectsClassesFilesAndExceptions-MoreExercises\P03_Jarvis\P03_Jarvis.csproj", "{08598ECE-01DD-4A4A-BB31-97F7D97A7BCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1271,6 +1273,10 @@ Global
 		{424C9065-05CA-4A01-A1AA-DC0CB562D3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{424C9065-05CA-4A01-A1AA-DC0CB562D3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{424C9065-05CA-4A01-A1AA-DC0CB562D3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08598ECE-01DD-4A4A-BB31-97F7D97A7BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08598ECE-01DD-4A4A-BB31-97F7D97A7BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08598ECE-01DD-4A4A-BB31-97F7D97A7BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08598ECE-01DD-4A4A-BB31-97F7D97A7BCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1479,5 +1485,6 @@ Global
 		{65BECF81-E812-480F-85EC-E473EB0F169C} = {07BE1782-3117-42B8-A196-9F996CE00150}
 		{945D7DB5-C8AC-48E2-B32C-6F9D616484A1} = {9899EAAE-31F3-4D0B-BB05-F5E0DC2F651E}
 		{424C9065-05CA-4A01-A1AA-DC0CB562D3E2} = {9899EAAE-31F3-4D0B-BB05-F5E0DC2F651E}
+		{08598ECE-01DD-4A4A-BB31-97F7D97A7BCC} = {9899EAAE-31F3-4D0B-BB05-F5E0DC2F651E}
 	EndGlobalSection
 EndGlobal
