@@ -471,6 +471,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_OddLines", "L22_FilesDi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_LineNumbers", "L22_FilesDirectoriesAndExceptions\P02_LineNumbers\P02_LineNumbers.csproj", "{2FAEA170-7DDD-4A96-BB85-A9ECD5C4F32C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_WordCount", "L22_FilesDirectoriesAndExceptions\P03_WordCount\P03_WordCount.csproj", "{66574473-8B71-4248-A3E0-EF1F756F0711}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1321,6 +1323,10 @@ Global
 		{2FAEA170-7DDD-4A96-BB85-A9ECD5C4F32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FAEA170-7DDD-4A96-BB85-A9ECD5C4F32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FAEA170-7DDD-4A96-BB85-A9ECD5C4F32C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66574473-8B71-4248-A3E0-EF1F756F0711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66574473-8B71-4248-A3E0-EF1F756F0711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66574473-8B71-4248-A3E0-EF1F756F0711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66574473-8B71-4248-A3E0-EF1F756F0711}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1537,5 +1543,6 @@ Global
 		{6FA1F23F-A7D5-4615-834F-2FA78BBC6A01} = {9899EAAE-31F3-4D0B-BB05-F5E0DC2F651E}
 		{E5C68BF9-541F-47F1-B3F3-3CE7F86F3516} = {F9FC2F5A-AB0A-40C5-9E39-F4C03DF2BBF6}
 		{2FAEA170-7DDD-4A96-BB85-A9ECD5C4F32C} = {F9FC2F5A-AB0A-40C5-9E39-F4C03DF2BBF6}
+		{66574473-8B71-4248-A3E0-EF1F756F0711} = {F9FC2F5A-AB0A-40C5-9E39-F4C03DF2BBF6}
 	EndGlobalSection
 EndGlobal
