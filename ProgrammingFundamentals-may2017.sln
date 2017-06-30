@@ -459,6 +459,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_PunctuationFinder", "L2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_WriteToFile", "L21_ObjectsClassesFilesAndExceptions-MoreExercises\P05_WriteToFile\P05_WriteToFile.csproj", "{51707CAE-B861-4FAC-A572-CDDCB109753F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_EXCELlentKnowledge", "L21_ObjectsClassesFilesAndExceptions-MoreExercises\P06_EXCELlentKnowledge\P06_EXCELlentKnowledge.csproj", "{B1BE4C3C-04DC-4903-88C8-EBA6A91664D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1289,6 +1291,10 @@ Global
 		{51707CAE-B861-4FAC-A572-CDDCB109753F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51707CAE-B861-4FAC-A572-CDDCB109753F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51707CAE-B861-4FAC-A572-CDDCB109753F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1BE4C3C-04DC-4903-88C8-EBA6A91664D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BE4C3C-04DC-4903-88C8-EBA6A91664D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BE4C3C-04DC-4903-88C8-EBA6A91664D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BE4C3C-04DC-4903-88C8-EBA6A91664D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1500,5 +1506,6 @@ Global
 		{08598ECE-01DD-4A4A-BB31-97F7D97A7BCC} = {9899EAAE-31F3-4D0B-BB05-F5E0DC2F651E}
 		{B0102B1F-F0BA-44AB-B965-10E93D5C39E0} = {9899EAAE-31F3-4D0B-BB05-F5E0DC2F651E}
 		{51707CAE-B861-4FAC-A572-CDDCB109753F} = {9899EAAE-31F3-4D0B-BB05-F5E0DC2F651E}
+		{B1BE4C3C-04DC-4903-88C8-EBA6A91664D3} = {9899EAAE-31F3-4D0B-BB05-F5E0DC2F651E}
 	EndGlobalSection
 EndGlobal
