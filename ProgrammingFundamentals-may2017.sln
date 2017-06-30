@@ -463,6 +463,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_EXCELlentKnowledge", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07_PlayCatch", "L21_ObjectsClassesFilesAndExceptions-MoreExercises\P07_PlayCatch\P07_PlayCatch.csproj", "{208ACF88-45EB-496E-B35F-6FC4D478833F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08_PersonalException", "L21_ObjectsClassesFilesAndExceptions-MoreExercises\P08_PersonalException\P08_PersonalException.csproj", "{6FA1F23F-A7D5-4615-834F-2FA78BBC6A01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1301,6 +1303,10 @@ Global
 		{208ACF88-45EB-496E-B35F-6FC4D478833F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{208ACF88-45EB-496E-B35F-6FC4D478833F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{208ACF88-45EB-496E-B35F-6FC4D478833F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA1F23F-A7D5-4615-834F-2FA78BBC6A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA1F23F-A7D5-4615-834F-2FA78BBC6A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA1F23F-A7D5-4615-834F-2FA78BBC6A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA1F23F-A7D5-4615-834F-2FA78BBC6A01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1514,5 +1520,6 @@ Global
 		{51707CAE-B861-4FAC-A572-CDDCB109753F} = {9899EAAE-31F3-4D0B-BB05-F5E0DC2F651E}
 		{B1BE4C3C-04DC-4903-88C8-EBA6A91664D3} = {9899EAAE-31F3-4D0B-BB05-F5E0DC2F651E}
 		{208ACF88-45EB-496E-B35F-6FC4D478833F} = {9899EAAE-31F3-4D0B-BB05-F5E0DC2F651E}
+		{6FA1F23F-A7D5-4615-834F-2FA78BBC6A01} = {9899EAAE-31F3-4D0B-BB05-F5E0DC2F651E}
 	EndGlobalSection
 EndGlobal
