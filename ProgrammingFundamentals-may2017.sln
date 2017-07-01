@@ -491,6 +491,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L24_StringsAndTextProcessin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_ConvertFromBase-10ToBase-N", "L24_StringsAndTextProcessing-Exercises\P01_ConvertFromBase-10ToBase-N\P01_ConvertFromBase-10ToBase-N.csproj", "{C1D5473B-DC51-4D35-A664-D678D00ED9B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_ConvertFromBase-NToBase-10", "L24_StringsAndTextProcessing-Exercises\P02_ConvertFromBase-NToBase-10\P02_ConvertFromBase-NToBase-10.csproj", "{F937EDE7-42C6-473F-9EBD-E7202AA39D04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1373,6 +1375,10 @@ Global
 		{C1D5473B-DC51-4D35-A664-D678D00ED9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1D5473B-DC51-4D35-A664-D678D00ED9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1D5473B-DC51-4D35-A664-D678D00ED9B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F937EDE7-42C6-473F-9EBD-E7202AA39D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F937EDE7-42C6-473F-9EBD-E7202AA39D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F937EDE7-42C6-473F-9EBD-E7202AA39D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F937EDE7-42C6-473F-9EBD-E7202AA39D04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1597,5 +1603,6 @@ Global
 		{54768381-F30F-4B2D-A653-C51257121CA3} = {1177DA4B-4E7E-4B84-9B3C-8E6E4C67A946}
 		{A67726D0-8534-406E-8C4B-0F3C0306542F} = {1177DA4B-4E7E-4B84-9B3C-8E6E4C67A946}
 		{C1D5473B-DC51-4D35-A664-D678D00ED9B8} = {52E2D489-C037-4246-A5B2-92C069B94804}
+		{F937EDE7-42C6-473F-9EBD-E7202AA39D04} = {52E2D489-C037-4246-A5B2-92C069B94804}
 	EndGlobalSection
 EndGlobal
