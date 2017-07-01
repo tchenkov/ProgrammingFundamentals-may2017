@@ -487,6 +487,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_TextFilter", "L23_Strin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_Palindromes", "L23_StringsAndTextProcessing-Lab\P04_Palindromes\P04_Palindromes.csproj", "{A67726D0-8534-406E-8C4B-0F3C0306542F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L24_StringsAndTextProcessing-Exercises", "L24_StringsAndTextProcessing-Exercises", "{52E2D489-C037-4246-A5B2-92C069B94804}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
