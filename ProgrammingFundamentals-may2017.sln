@@ -477,6 +477,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_MergeFiles", "L22_Files
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_FolderSize", "L22_FilesDirectoriesAndExceptions\P05_FolderSize\P05_FolderSize.csproj", "{D42AD474-1E82-4E10-A494-682E3F9D493C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L23_StringsAndTextProcessing-Lab", "L23_StringsAndTextProcessing-Lab", "{1177DA4B-4E7E-4B84-9B3C-8E6E4C67A946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_ReverseString", "L23_StringsAndTextProcessing-Lab\P01_ReverseString\P01_ReverseString.csproj", "{DAD56201-ED70-4ED5-92E2-A203B15B4961}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1339,6 +1343,10 @@ Global
 		{D42AD474-1E82-4E10-A494-682E3F9D493C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D42AD474-1E82-4E10-A494-682E3F9D493C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D42AD474-1E82-4E10-A494-682E3F9D493C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD56201-ED70-4ED5-92E2-A203B15B4961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD56201-ED70-4ED5-92E2-A203B15B4961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD56201-ED70-4ED5-92E2-A203B15B4961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD56201-ED70-4ED5-92E2-A203B15B4961}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1558,5 +1566,6 @@ Global
 		{66574473-8B71-4248-A3E0-EF1F756F0711} = {F9FC2F5A-AB0A-40C5-9E39-F4C03DF2BBF6}
 		{E6D49F55-63FA-413D-B023-4EB70DA7B489} = {F9FC2F5A-AB0A-40C5-9E39-F4C03DF2BBF6}
 		{D42AD474-1E82-4E10-A494-682E3F9D493C} = {F9FC2F5A-AB0A-40C5-9E39-F4C03DF2BBF6}
+		{DAD56201-ED70-4ED5-92E2-A203B15B4961} = {1177DA4B-4E7E-4B84-9B3C-8E6E4C67A946}
 	EndGlobalSection
 EndGlobal
