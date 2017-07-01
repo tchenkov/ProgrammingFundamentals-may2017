@@ -497,6 +497,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_UnicodeCharacters", "L2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_CharacterMultiplier", "L24_StringsAndTextProcessing-Exercises\P04_CharacterMultiplier\P04_CharacterMultiplier.csproj", "{1FFA5D8D-7AD3-4DE0-A8BF-DDA0A855F965}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_MagicExchangeableWords", "L24_StringsAndTextProcessing-Exercises\P05_MagicExchangeableWords\P05_MagicExchangeableWords.csproj", "{F236B801-9E45-4BFE-A4B2-8CCE1C2278CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1391,6 +1393,10 @@ Global
 		{1FFA5D8D-7AD3-4DE0-A8BF-DDA0A855F965}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FFA5D8D-7AD3-4DE0-A8BF-DDA0A855F965}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FFA5D8D-7AD3-4DE0-A8BF-DDA0A855F965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F236B801-9E45-4BFE-A4B2-8CCE1C2278CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F236B801-9E45-4BFE-A4B2-8CCE1C2278CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F236B801-9E45-4BFE-A4B2-8CCE1C2278CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F236B801-9E45-4BFE-A4B2-8CCE1C2278CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1618,5 +1624,6 @@ Global
 		{F937EDE7-42C6-473F-9EBD-E7202AA39D04} = {52E2D489-C037-4246-A5B2-92C069B94804}
 		{F95B3D6A-B4B3-4BF0-8B2F-834454FE19C7} = {52E2D489-C037-4246-A5B2-92C069B94804}
 		{1FFA5D8D-7AD3-4DE0-A8BF-DDA0A855F965} = {52E2D489-C037-4246-A5B2-92C069B94804}
+		{F236B801-9E45-4BFE-A4B2-8CCE1C2278CD} = {52E2D489-C037-4246-A5B2-92C069B94804}
 	EndGlobalSection
 EndGlobal
