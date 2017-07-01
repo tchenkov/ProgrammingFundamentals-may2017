@@ -489,6 +489,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_Palindromes", "L23_Stri
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L24_StringsAndTextProcessing-Exercises", "L24_StringsAndTextProcessing-Exercises", "{52E2D489-C037-4246-A5B2-92C069B94804}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_ConvertFromBase-10ToBase-N", "L24_StringsAndTextProcessing-Exercises\P01_ConvertFromBase-10ToBase-N\P01_ConvertFromBase-10ToBase-N.csproj", "{C1D5473B-DC51-4D35-A664-D678D00ED9B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1367,6 +1369,10 @@ Global
 		{A67726D0-8534-406E-8C4B-0F3C0306542F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A67726D0-8534-406E-8C4B-0F3C0306542F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A67726D0-8534-406E-8C4B-0F3C0306542F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D5473B-DC51-4D35-A664-D678D00ED9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D5473B-DC51-4D35-A664-D678D00ED9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D5473B-DC51-4D35-A664-D678D00ED9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D5473B-DC51-4D35-A664-D678D00ED9B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1590,5 +1596,6 @@ Global
 		{F02B7926-979B-4A3A-8523-28601189C6D6} = {1177DA4B-4E7E-4B84-9B3C-8E6E4C67A946}
 		{54768381-F30F-4B2D-A653-C51257121CA3} = {1177DA4B-4E7E-4B84-9B3C-8E6E4C67A946}
 		{A67726D0-8534-406E-8C4B-0F3C0306542F} = {1177DA4B-4E7E-4B84-9B3C-8E6E4C67A946}
+		{C1D5473B-DC51-4D35-A664-D678D00ED9B8} = {52E2D489-C037-4246-A5B2-92C069B94804}
 	EndGlobalSection
 EndGlobal
