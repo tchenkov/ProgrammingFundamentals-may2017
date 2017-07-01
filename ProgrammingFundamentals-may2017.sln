@@ -483,6 +483,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_ReverseString", "L23_St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_CountSubstringOccurrences", "L23_StringsAndTextProcessing-Lab\P02_CountSubstringOccurrences\P02_CountSubstringOccurrences.csproj", "{F02B7926-979B-4A3A-8523-28601189C6D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_TextFilter", "L23_StringsAndTextProcessing-Lab\P03_TextFilter\P03_TextFilter.csproj", "{54768381-F30F-4B2D-A653-C51257121CA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1353,6 +1355,10 @@ Global
 		{F02B7926-979B-4A3A-8523-28601189C6D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F02B7926-979B-4A3A-8523-28601189C6D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F02B7926-979B-4A3A-8523-28601189C6D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54768381-F30F-4B2D-A653-C51257121CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54768381-F30F-4B2D-A653-C51257121CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54768381-F30F-4B2D-A653-C51257121CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54768381-F30F-4B2D-A653-C51257121CA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1574,5 +1580,6 @@ Global
 		{D42AD474-1E82-4E10-A494-682E3F9D493C} = {F9FC2F5A-AB0A-40C5-9E39-F4C03DF2BBF6}
 		{DAD56201-ED70-4ED5-92E2-A203B15B4961} = {1177DA4B-4E7E-4B84-9B3C-8E6E4C67A946}
 		{F02B7926-979B-4A3A-8523-28601189C6D6} = {1177DA4B-4E7E-4B84-9B3C-8E6E4C67A946}
+		{54768381-F30F-4B2D-A653-C51257121CA3} = {1177DA4B-4E7E-4B84-9B3C-8E6E4C67A946}
 	EndGlobalSection
 EndGlobal
