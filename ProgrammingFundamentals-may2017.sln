@@ -501,6 +501,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_MagicExchangeableWords"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_SumBigNumbers", "L24_StringsAndTextProcessing-Exercises\P06_SumBigNumbers\P06_SumBigNumbers.csproj", "{495E58F9-7DE9-44C4-9E8C-82E5DD0C5D57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07_MultiplyBigNumber", "L24_StringsAndTextProcessing-Exercises\P07_MultiplyBigNumber\P07_MultiplyBigNumber.csproj", "{598E9668-941C-4723-937E-B261D363AC14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1403,6 +1405,10 @@ Global
 		{495E58F9-7DE9-44C4-9E8C-82E5DD0C5D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{495E58F9-7DE9-44C4-9E8C-82E5DD0C5D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{495E58F9-7DE9-44C4-9E8C-82E5DD0C5D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598E9668-941C-4723-937E-B261D363AC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598E9668-941C-4723-937E-B261D363AC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598E9668-941C-4723-937E-B261D363AC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598E9668-941C-4723-937E-B261D363AC14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1632,5 +1638,6 @@ Global
 		{1FFA5D8D-7AD3-4DE0-A8BF-DDA0A855F965} = {52E2D489-C037-4246-A5B2-92C069B94804}
 		{F236B801-9E45-4BFE-A4B2-8CCE1C2278CD} = {52E2D489-C037-4246-A5B2-92C069B94804}
 		{495E58F9-7DE9-44C4-9E8C-82E5DD0C5D57} = {52E2D489-C037-4246-A5B2-92C069B94804}
+		{598E9668-941C-4723-937E-B261D363AC14} = {52E2D489-C037-4246-A5B2-92C069B94804}
 	EndGlobalSection
 EndGlobal
