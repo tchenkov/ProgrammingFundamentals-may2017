@@ -499,6 +499,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_CharacterMultiplier", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_MagicExchangeableWords", "L24_StringsAndTextProcessing-Exercises\P05_MagicExchangeableWords\P05_MagicExchangeableWords.csproj", "{F236B801-9E45-4BFE-A4B2-8CCE1C2278CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_SumBigNumbers", "L24_StringsAndTextProcessing-Exercises\P06_SumBigNumbers\P06_SumBigNumbers.csproj", "{495E58F9-7DE9-44C4-9E8C-82E5DD0C5D57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1397,6 +1399,10 @@ Global
 		{F236B801-9E45-4BFE-A4B2-8CCE1C2278CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F236B801-9E45-4BFE-A4B2-8CCE1C2278CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F236B801-9E45-4BFE-A4B2-8CCE1C2278CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{495E58F9-7DE9-44C4-9E8C-82E5DD0C5D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{495E58F9-7DE9-44C4-9E8C-82E5DD0C5D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{495E58F9-7DE9-44C4-9E8C-82E5DD0C5D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{495E58F9-7DE9-44C4-9E8C-82E5DD0C5D57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1625,5 +1631,6 @@ Global
 		{F95B3D6A-B4B3-4BF0-8B2F-834454FE19C7} = {52E2D489-C037-4246-A5B2-92C069B94804}
 		{1FFA5D8D-7AD3-4DE0-A8BF-DDA0A855F965} = {52E2D489-C037-4246-A5B2-92C069B94804}
 		{F236B801-9E45-4BFE-A4B2-8CCE1C2278CD} = {52E2D489-C037-4246-A5B2-92C069B94804}
+		{495E58F9-7DE9-44C4-9E8C-82E5DD0C5D57} = {52E2D489-C037-4246-A5B2-92C069B94804}
 	EndGlobalSection
 EndGlobal
