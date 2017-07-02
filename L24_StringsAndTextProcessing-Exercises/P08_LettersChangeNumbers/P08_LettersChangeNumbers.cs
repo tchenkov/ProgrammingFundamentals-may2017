@@ -17,22 +17,22 @@ namespace P08_LettersChangeNumbers
         static decimal CalcSum(string[] inputArr)
         {
             var length = inputArr.Length;
-            var result = new decimal[length];
-            for (int i = 0; i < length; i++)
+            decimal result = 0;
+            foreach (var item in inputArr)
             {
-                var startChar = inputArr[i][0];
-                var num = decimal.Parse(inputArr[i].Substring(1, inputArr[i].Length - 2 ));
-                var lastChar = inputArr[i][inputArr[i].Length - 1];
+                var startChar = item[0];
+                var num = decimal.Parse(item.Substring(1, item.Length - 2 ));
+                var lastChar = item[item.Length - 1];
                 num = char.IsUpper(startChar) ?
                     num / (startChar - 'A' + 1) :
                     num * (startChar - 'a' + 1);
                 num = char.IsUpper(lastChar) ?
                     num - (lastChar - 'A' + 1) :
                     num + (lastChar - 'a' + 1);
-                result[i] = num;
+                result += num;
             }
 
-            return result.Sum();
+            return result;
         }        
     }
 }
