@@ -507,6 +507,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08_LettersChangeNumbers", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09_MelrahShake", "L24_StringsAndTextProcessing-Exercises\P09_MelrahShake\P09_MelrahShake.csproj", "{6BF7B168-A87A-47C1-918B-C3BCFFB8CA4D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L25_RegularExpressionsRegEx-Lab", "L25_RegularExpressionsRegEx-Lab", "{A59EE3AE-2A5D-49F3-9975-7120A334BB00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
