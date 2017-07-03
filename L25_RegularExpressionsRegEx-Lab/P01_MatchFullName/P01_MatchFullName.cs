@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
 
 namespace P01_MatchFullName
@@ -9,13 +9,10 @@ namespace P01_MatchFullName
         static void Main(string[] args)
         {
             var names = Console.ReadLine();
-            var matches = Regex.Matches(names, @"\b[A-Z][a-z]+ [A-Z][a-z]+\b");
-            var namesList = new List<string>();
-            foreach (Match name in matches)
-            {
-                namesList.Add($"{name}");
-            }
-            Console.WriteLine(string.Join(" ", namesList));
+            var pattern = @"\b[A-Z][a-z]+ [A-Z][a-z]+\b";
+            var matches = Regex.Matches(names, pattern);
+            var namesArr = matches.Cast<Match>().Select(m => m.ToString()).ToArray();
+            Console.WriteLine(string.Join(" ", namesArr));
         }
     }
 }
