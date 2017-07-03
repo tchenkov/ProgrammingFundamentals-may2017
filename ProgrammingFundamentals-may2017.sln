@@ -521,6 +521,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_MatchNumbers", "L25_Reg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_ReplaceATag", "L25_RegularExpressionsRegEx-Lab\P06_ReplaceATag\P06_ReplaceATag.csproj", "{34D618DE-E7C6-4EC5-904F-A64F3FA786B6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L26_RegularExpressions(RegEx)-Exercises", "L26_RegularExpressions(RegEx)-Exercises", "{1F2BF8A8-4684-46C7-AAE8-B634BBD45431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_ExtractEmails", "L26_RegularExpressions(RegEx)-Exercises\P01_ExtractEmails\P01_ExtractEmails.csproj", "{D88E8B68-C4DF-4D07-8DCC-C0BA1991F4D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1459,6 +1463,10 @@ Global
 		{34D618DE-E7C6-4EC5-904F-A64F3FA786B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34D618DE-E7C6-4EC5-904F-A64F3FA786B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34D618DE-E7C6-4EC5-904F-A64F3FA786B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D88E8B68-C4DF-4D07-8DCC-C0BA1991F4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D88E8B68-C4DF-4D07-8DCC-C0BA1991F4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D88E8B68-C4DF-4D07-8DCC-C0BA1991F4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D88E8B68-C4DF-4D07-8DCC-C0BA1991F4D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1697,5 +1705,6 @@ Global
 		{22A2569B-14FE-4400-B4AD-AE40F52CD04B} = {A59EE3AE-2A5D-49F3-9975-7120A334BB00}
 		{C4AD11EB-E050-4259-8A9A-8EC85C8B2509} = {A59EE3AE-2A5D-49F3-9975-7120A334BB00}
 		{34D618DE-E7C6-4EC5-904F-A64F3FA786B6} = {A59EE3AE-2A5D-49F3-9975-7120A334BB00}
+		{D88E8B68-C4DF-4D07-8DCC-C0BA1991F4D3} = {1F2BF8A8-4684-46C7-AAE8-B634BBD45431}
 	EndGlobalSection
 EndGlobal
