@@ -517,6 +517,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_MatchHexadecimalNumbers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_MatchDates", "L25_RegularExpressionsRegEx-Lab\P04_MatchDates\P04_MatchDates.csproj", "{22A2569B-14FE-4400-B4AD-AE40F52CD04B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_MatchNumbers", "L25_RegularExpressionsRegEx-Lab\P05_MatchNumbers\P05_MatchNumbers.csproj", "{C4AD11EB-E050-4259-8A9A-8EC85C8B2509}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1447,6 +1449,10 @@ Global
 		{22A2569B-14FE-4400-B4AD-AE40F52CD04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22A2569B-14FE-4400-B4AD-AE40F52CD04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22A2569B-14FE-4400-B4AD-AE40F52CD04B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4AD11EB-E050-4259-8A9A-8EC85C8B2509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4AD11EB-E050-4259-8A9A-8EC85C8B2509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4AD11EB-E050-4259-8A9A-8EC85C8B2509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4AD11EB-E050-4259-8A9A-8EC85C8B2509}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1683,5 +1689,6 @@ Global
 		{8B912F51-22BD-4823-9E71-968DFA239310} = {A59EE3AE-2A5D-49F3-9975-7120A334BB00}
 		{8351F523-ACFD-4AF1-B258-DFF69E5D6FC5} = {A59EE3AE-2A5D-49F3-9975-7120A334BB00}
 		{22A2569B-14FE-4400-B4AD-AE40F52CD04B} = {A59EE3AE-2A5D-49F3-9975-7120A334BB00}
+		{C4AD11EB-E050-4259-8A9A-8EC85C8B2509} = {A59EE3AE-2A5D-49F3-9975-7120A334BB00}
 	EndGlobalSection
 EndGlobal
