@@ -513,6 +513,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_MatchFullName", "L25_Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_MatchPhoneNumber", "L25_RegularExpressionsRegEx-Lab\P02_MatchPhoneNumber\P02_MatchPhoneNumber.csproj", "{8B912F51-22BD-4823-9E71-968DFA239310}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_MatchHexadecimalNumbers", "L25_RegularExpressionsRegEx-Lab\P03_MatchHexadecimalNumbers\P03_MatchHexadecimalNumbers.csproj", "{8351F523-ACFD-4AF1-B258-DFF69E5D6FC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1435,6 +1437,10 @@ Global
 		{8B912F51-22BD-4823-9E71-968DFA239310}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B912F51-22BD-4823-9E71-968DFA239310}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B912F51-22BD-4823-9E71-968DFA239310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8351F523-ACFD-4AF1-B258-DFF69E5D6FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8351F523-ACFD-4AF1-B258-DFF69E5D6FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8351F523-ACFD-4AF1-B258-DFF69E5D6FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8351F523-ACFD-4AF1-B258-DFF69E5D6FC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1669,5 +1675,6 @@ Global
 		{6BF7B168-A87A-47C1-918B-C3BCFFB8CA4D} = {52E2D489-C037-4246-A5B2-92C069B94804}
 		{E9FA285B-7132-41C3-B4DF-F3E86BBFF81B} = {A59EE3AE-2A5D-49F3-9975-7120A334BB00}
 		{8B912F51-22BD-4823-9E71-968DFA239310} = {A59EE3AE-2A5D-49F3-9975-7120A334BB00}
+		{8351F523-ACFD-4AF1-B258-DFF69E5D6FC5} = {A59EE3AE-2A5D-49F3-9975-7120A334BB00}
 	EndGlobalSection
 EndGlobal
