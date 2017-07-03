@@ -9,7 +9,7 @@ namespace P04_MatchDates
         {
             var text = Console.ReadLine();
             var pattern = 
-                @"\b(?<day>\d{2})(?<dateSeparator>\/|\.|-)(?<month>[A-Z][a-z]{2})\2(?<year>\d{4})\b";
+                @"\b(?<day>\d{2})(?<dateSeparator>\/|\.|-)(?<month>[A-Z][a-z]{2})\k<dateSeparator>(?<year>\d{4})\b";
 
             var dates = Regex.Matches(text, pattern);
             foreach (Match date in dates)
