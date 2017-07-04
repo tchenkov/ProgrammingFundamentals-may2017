@@ -24,14 +24,11 @@ namespace P05_KeyReplacer
                 .Cast<Match>()
                 .Select(m => m.Value)
                 .ToList();
-            if (matchesList.Count == 0)
-            {
-                Console.WriteLine("Empty result");
-            }
-            else
-            {
-                Console.WriteLine(string.Join("", matchesList));
-            }
+            Console.WriteLine(
+                matchesList.Count == 0 ?
+                "Empty result" :
+                string.Join("", matchesList)
+            );
         }
     }
 }
