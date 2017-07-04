@@ -535,6 +535,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_KeyReplacer", "L26_Regu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_ValidUsernames", "L26_RegularExpressions(RegEx)-Exercises\P06_ValidUsernames\P06_ValidUsernames.csproj", "{1DC8F681-61C7-4E41-A09C-8005377E7D4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07_QueryMess", "L26_RegularExpressions(RegEx)-Exercises\P07_QueryMess\P07_QueryMess.csproj", "{02972951-72E1-450D-9FA5-936A042BBC26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1497,6 +1499,10 @@ Global
 		{1DC8F681-61C7-4E41-A09C-8005377E7D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DC8F681-61C7-4E41-A09C-8005377E7D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DC8F681-61C7-4E41-A09C-8005377E7D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02972951-72E1-450D-9FA5-936A042BBC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02972951-72E1-450D-9FA5-936A042BBC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02972951-72E1-450D-9FA5-936A042BBC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02972951-72E1-450D-9FA5-936A042BBC26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1741,5 +1747,6 @@ Global
 		{03DDA297-016C-4D19-AAF5-25095DD27489} = {1F2BF8A8-4684-46C7-AAE8-B634BBD45431}
 		{52351754-B004-4C7D-BCD0-209029F3C372} = {1F2BF8A8-4684-46C7-AAE8-B634BBD45431}
 		{1DC8F681-61C7-4E41-A09C-8005377E7D4C} = {1F2BF8A8-4684-46C7-AAE8-B634BBD45431}
+		{02972951-72E1-450D-9FA5-936A042BBC26} = {1F2BF8A8-4684-46C7-AAE8-B634BBD45431}
 	EndGlobalSection
 EndGlobal
