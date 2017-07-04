@@ -539,6 +539,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07_QueryMess", "L26_Regula
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08_UseYourChainsBuddy", "L26_RegularExpressions(RegEx)-Exercises\P08_UseYourChainsBuddy\P08_UseYourChainsBuddy.csproj", "{BF30104E-EF38-4A3A-9E63-9C4577318BBD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L27_StringsAndRegularExpressions-MoreExercises", "L27_StringsAndRegularExpressions-MoreExercises", "{A31603E8-3CFA-439E-9B18-104506949617}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
