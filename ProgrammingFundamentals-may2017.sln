@@ -533,6 +533,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_Weather", "L26_RegularE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_KeyReplacer", "L26_RegularExpressions(RegEx)-Exercises\P05_KeyReplacer\P05_KeyReplacer.csproj", "{52351754-B004-4C7D-BCD0-209029F3C372}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_ValidUsernames", "L26_RegularExpressions(RegEx)-Exercises\P06_ValidUsernames\P06_ValidUsernames.csproj", "{1DC8F681-61C7-4E41-A09C-8005377E7D4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1491,6 +1493,10 @@ Global
 		{52351754-B004-4C7D-BCD0-209029F3C372}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52351754-B004-4C7D-BCD0-209029F3C372}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52351754-B004-4C7D-BCD0-209029F3C372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC8F681-61C7-4E41-A09C-8005377E7D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC8F681-61C7-4E41-A09C-8005377E7D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC8F681-61C7-4E41-A09C-8005377E7D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC8F681-61C7-4E41-A09C-8005377E7D4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1734,5 +1740,6 @@ Global
 		{988D60DD-386D-4B92-9186-DF7B0A8B3453} = {1F2BF8A8-4684-46C7-AAE8-B634BBD45431}
 		{03DDA297-016C-4D19-AAF5-25095DD27489} = {1F2BF8A8-4684-46C7-AAE8-B634BBD45431}
 		{52351754-B004-4C7D-BCD0-209029F3C372} = {1F2BF8A8-4684-46C7-AAE8-B634BBD45431}
+		{1DC8F681-61C7-4E41-A09C-8005377E7D4C} = {1F2BF8A8-4684-46C7-AAE8-B634BBD45431}
 	EndGlobalSection
 EndGlobal
