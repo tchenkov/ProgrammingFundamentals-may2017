@@ -557,6 +557,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07_Hideout", "L27_StringsA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08_Mines", "L27_StringsAndRegularExpressions-MoreExercises\P08_Mines\P08_Mines.csproj", "{35325725-ECBC-48C2-9ED2-912DD4A23FBC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L28_Exam Preparation I", "L28_Exam Preparation I", "{5C10DE27-9BDD-453F-9589-D9F0E0D4C1E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
