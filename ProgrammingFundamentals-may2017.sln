@@ -547,6 +547,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_EmailMe", "L27_StringsA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_KarateStrings", "L27_StringsAndRegularExpressions-MoreExercises\P03_KarateStrings\P03_KarateStrings.csproj", "{99D3ACEF-84BF-4CAA-9307-B60ED86EABCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_MorseCodeUpgraded", "L27_StringsAndRegularExpressions-MoreExercises\P04_MorseCodeUpgraded\P04_MorseCodeUpgraded.csproj", "{22254F78-2D82-4F37-8A74-0F0F916D70ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1529,6 +1531,10 @@ Global
 		{99D3ACEF-84BF-4CAA-9307-B60ED86EABCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99D3ACEF-84BF-4CAA-9307-B60ED86EABCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99D3ACEF-84BF-4CAA-9307-B60ED86EABCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22254F78-2D82-4F37-8A74-0F0F916D70ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22254F78-2D82-4F37-8A74-0F0F916D70ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22254F78-2D82-4F37-8A74-0F0F916D70ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22254F78-2D82-4F37-8A74-0F0F916D70ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1778,5 +1784,6 @@ Global
 		{837F028E-2519-429A-80D9-00033C512B54} = {A31603E8-3CFA-439E-9B18-104506949617}
 		{285B2AEE-030D-46B0-8CAB-2D378B10A771} = {A31603E8-3CFA-439E-9B18-104506949617}
 		{99D3ACEF-84BF-4CAA-9307-B60ED86EABCE} = {A31603E8-3CFA-439E-9B18-104506949617}
+		{22254F78-2D82-4F37-8A74-0F0F916D70ED} = {A31603E8-3CFA-439E-9B18-104506949617}
 	EndGlobalSection
 EndGlobal
