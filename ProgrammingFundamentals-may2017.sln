@@ -565,6 +565,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E01_SinoTheWalker_v2", "L28
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02_SoftUniKaraoke", "L28_Exam Preparation I\E02_SoftUniKaraoke\E02_SoftUniKaraoke.csproj", "{0E93CF6B-0660-431F-B96B-EE802A7A5C9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E03_EnduranceRally", "L28_Exam Preparation I\E03_EnduranceRally\E03_EnduranceRally.csproj", "{96AE008A-4041-4C66-B0B1-182FBC1E334B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1579,6 +1581,10 @@ Global
 		{0E93CF6B-0660-431F-B96B-EE802A7A5C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E93CF6B-0660-431F-B96B-EE802A7A5C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E93CF6B-0660-431F-B96B-EE802A7A5C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96AE008A-4041-4C66-B0B1-182FBC1E334B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AE008A-4041-4C66-B0B1-182FBC1E334B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AE008A-4041-4C66-B0B1-182FBC1E334B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AE008A-4041-4C66-B0B1-182FBC1E334B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1836,5 +1842,6 @@ Global
 		{AD422D4E-CE1F-475A-9CAF-1FF87F01E767} = {5C10DE27-9BDD-453F-9589-D9F0E0D4C1E7}
 		{BBEA8D09-2BFD-48ED-BFCA-EEA7887369C2} = {5C10DE27-9BDD-453F-9589-D9F0E0D4C1E7}
 		{0E93CF6B-0660-431F-B96B-EE802A7A5C9C} = {5C10DE27-9BDD-453F-9589-D9F0E0D4C1E7}
+		{96AE008A-4041-4C66-B0B1-182FBC1E334B} = {5C10DE27-9BDD-453F-9589-D9F0E0D4C1E7}
 	EndGlobalSection
 EndGlobal
