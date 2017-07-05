@@ -551,6 +551,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_MorseCodeUpgraded", "L2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_OnlyLetters", "L27_StringsAndRegularExpressions-MoreExercises\P05_OnlyLetters\P05_OnlyLetters.csproj", "{B52FA04B-3E20-48B6-B4C2-5F6E8FDD6EF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06_EmailStatistics", "L27_StringsAndRegularExpressions-MoreExercises\P06_EmailStatistics\P06_EmailStatistics.csproj", "{1CC5BE14-BAA0-4EFE-BD4E-D49464F29122}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1541,6 +1543,10 @@ Global
 		{B52FA04B-3E20-48B6-B4C2-5F6E8FDD6EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B52FA04B-3E20-48B6-B4C2-5F6E8FDD6EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B52FA04B-3E20-48B6-B4C2-5F6E8FDD6EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC5BE14-BAA0-4EFE-BD4E-D49464F29122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC5BE14-BAA0-4EFE-BD4E-D49464F29122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC5BE14-BAA0-4EFE-BD4E-D49464F29122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC5BE14-BAA0-4EFE-BD4E-D49464F29122}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1792,5 +1798,6 @@ Global
 		{99D3ACEF-84BF-4CAA-9307-B60ED86EABCE} = {A31603E8-3CFA-439E-9B18-104506949617}
 		{22254F78-2D82-4F37-8A74-0F0F916D70ED} = {A31603E8-3CFA-439E-9B18-104506949617}
 		{B52FA04B-3E20-48B6-B4C2-5F6E8FDD6EF2} = {A31603E8-3CFA-439E-9B18-104506949617}
+		{1CC5BE14-BAA0-4EFE-BD4E-D49464F29122} = {A31603E8-3CFA-439E-9B18-104506949617}
 	EndGlobalSection
 EndGlobal
