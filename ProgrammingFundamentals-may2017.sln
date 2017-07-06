@@ -573,6 +573,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L29_Exam Preparation II", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E01_CharityMarathon", "L29_Exam Preparation II\E01_CharityMarathon\E01_CharityMarathon.csproj", "{60AA978C-2865-4668-9352-A0A1B34BCB1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02_Ladybugs", "L29_Exam Preparation II\E02_Ladybugs\E02_Ladybugs.csproj", "{DC94FDEE-2750-4B82-83F2-9FA835C6456A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1599,6 +1601,10 @@ Global
 		{60AA978C-2865-4668-9352-A0A1B34BCB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60AA978C-2865-4668-9352-A0A1B34BCB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60AA978C-2865-4668-9352-A0A1B34BCB1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC94FDEE-2750-4B82-83F2-9FA835C6456A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC94FDEE-2750-4B82-83F2-9FA835C6456A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC94FDEE-2750-4B82-83F2-9FA835C6456A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC94FDEE-2750-4B82-83F2-9FA835C6456A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1859,5 +1865,6 @@ Global
 		{96AE008A-4041-4C66-B0B1-182FBC1E334B} = {5C10DE27-9BDD-453F-9589-D9F0E0D4C1E7}
 		{06B06B2F-46A9-4869-900F-D2E675CE5725} = {5C10DE27-9BDD-453F-9589-D9F0E0D4C1E7}
 		{60AA978C-2865-4668-9352-A0A1B34BCB1A} = {C53FF055-ADED-4662-A4DB-63F3D104AD7F}
+		{DC94FDEE-2750-4B82-83F2-9FA835C6456A} = {C53FF055-ADED-4662-A4DB-63F3D104AD7F}
 	EndGlobalSection
 EndGlobal
