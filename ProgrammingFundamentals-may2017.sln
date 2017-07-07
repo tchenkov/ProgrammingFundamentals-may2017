@@ -585,6 +585,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E01_SoftuniCoffeeOrders", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E02_CommandInterpreter", "L30_Exam Preparation III\E02_CommandInterpreter\E02_CommandInterpreter.csproj", "{3743A29B-0C60-4879-B017-8EAD1B51DB4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E03_RageQuit", "L30_Exam Preparation III\E03_RageQuit\E03_RageQuit.csproj", "{D0BF1D95-64F3-4907-930F-65DFD7E7D48F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1631,6 +1633,10 @@ Global
 		{3743A29B-0C60-4879-B017-8EAD1B51DB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3743A29B-0C60-4879-B017-8EAD1B51DB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3743A29B-0C60-4879-B017-8EAD1B51DB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0BF1D95-64F3-4907-930F-65DFD7E7D48F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BF1D95-64F3-4907-930F-65DFD7E7D48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BF1D95-64F3-4907-930F-65DFD7E7D48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BF1D95-64F3-4907-930F-65DFD7E7D48F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1896,5 +1902,6 @@ Global
 		{1A8755DB-D8C7-4E41-AEEC-2943778F0F90} = {C53FF055-ADED-4662-A4DB-63F3D104AD7F}
 		{A2DE5A4E-C80B-490E-826C-9D3B1363FCCD} = {7B775761-BDE1-47BF-8FB0-323914DE37B3}
 		{3743A29B-0C60-4879-B017-8EAD1B51DB4D} = {7B775761-BDE1-47BF-8FB0-323914DE37B3}
+		{D0BF1D95-64F3-4907-930F-65DFD7E7D48F} = {7B775761-BDE1-47BF-8FB0-323914DE37B3}
 	EndGlobalSection
 EndGlobal
