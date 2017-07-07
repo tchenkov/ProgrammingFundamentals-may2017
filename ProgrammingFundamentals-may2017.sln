@@ -579,6 +579,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E03_NetherRealms", "L29_Exa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E04_RoliTheCoder", "L29_Exam Preparation II\E04_RoliTheCoder\E04_RoliTheCoder.csproj", "{1A8755DB-D8C7-4E41-AEEC-2943778F0F90}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L30_Exam Preparation III", "L30_Exam Preparation III", "{7B775761-BDE1-47BF-8FB0-323914DE37B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
